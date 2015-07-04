@@ -1,0 +1,90 @@
+@font-face {
+	font-family: "MuseoSans";
+	font-style: normal;
+	font-weight: 900;
+	src: url("../font/museosans_900-webfont.woff");
+}
+
+@font-face {
+	font-family: "MuseoSans";
+	font-style: italic;
+	font-weight: 900;
+	src: url("../font/museosans_900_italic-webfont.woff");
+}
+
+@font-face {
+	font-family: "MuseoSans";
+	font-style: normal;
+	font-weight: 700;
+	src: url("../font/museosans_700-webfont.woff");
+}
+
+@font-face {
+	font-family: "MuseoSans";
+	font-style: normal;
+	font-weight: 300;
+	src: url("../font/museosans_300-webfont.woff");
+}
+
+@font-face {
+	font-family: "MuseoSans";
+	font-style: italic;
+	font-weight: 300;
+	src: url("../font/museosans_300_italic-webfont.woff");
+}
+
+@font-face {
+	font-family: "MuseoSans";
+	font-style: normal;
+	font-weight: 100;
+	src: url("../font/museosans_100-webfont.woff");
+}
+
+#logo {
+	float: left;
+	height: 35px;
+	width: 35px;
+	margin-top: 10px;
+	margin-left: 10px;
+}       
+
+.txt {
+	color: #313131;
+	font-family: MuseoSans, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+}
+
+h4.txt {
+	font-weight: 100;
+}
+
+a {
+	color: #313131;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #313131;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+div.section {
+	position: absolute;
+//	background-color: #F0F2F3;
+	background-color: #E1E3E4;
+	margin-top: 3px;
+	height: 200px;
+	width: 100%;
+	left: 0;
+	right: 0;	
+}
+
+h1.txt {
+	font-weight: 900;
+	margin-left: 20%;
+	margin-top: 50px;
+}
+
+

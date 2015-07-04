@@ -1,2 +1,5 @@
 # tunneln.github.io
-My personal website/blog
+My personal portfolio and blog
+
+
+Note: Still under construction [here]([noelnegusse.com)
