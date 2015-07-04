@@ -59,12 +59,12 @@ h4.txt {
 	font-weight: 100;
 }
 
-a {
+h4 a {
 	color: #313131;
 	text-decoration: none;
 }
 
-a:hover {
+h4 a:hover {
 	color: #313131;
 	text-decoration: none;
 	font-weight: 700;
@@ -89,22 +89,25 @@ h1.txt {
 
 #git-logo {
 	float: left;
-	height: 26px;
-	width: 26px;
+	height: 22px;
+	width: 22px;
 	margin-left: 25%;
 }
 
 #linkedin-logo {
+	border: 1px solid white;
 	float: left;
-	height: 26px;
-	width: 26px;
+	height: 22px;
+	width: 22px;
 	margin-left: 60px;
 
 }
 
 #twitter-logo {
+	position: absolute;
 	float: left;
-	height: 36px;
-	width: 36px;
+	height: 22px;
+	width: 22px;
 	margin-left: 60px;
-}
+//	border: 1px solid white;
+}	
