@@ -87,4 +87,24 @@ h1.txt {
 	margin-top: 50px;
 }
 
+#git-logo {
+	float: left;
+	height: 26px;
+	width: 26px;
+	margin-left: 25%;
+}
 
+#linkedin-logo {
+	float: left;
+	height: 26px;
+	width: 26px;
+	margin-left: 60px;
+
+}
+
+#twitter-logo {
+	float: left;
+	height: 36px;
+	width: 36px;
+	margin-left: 60px;
+}
