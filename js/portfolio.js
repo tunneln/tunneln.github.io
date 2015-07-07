@@ -3,32 +3,32 @@
 // Github
 function g_hover(element) 
 {
-	element.setAttribute('src', 'img/github-logo2.png');
+	element.setAttribute('src', 'img/logos/github-logo2.png');
 }
 
 function g_unhover(element) 
 {
-	element.setAttribute('src', 'img/github-logo.png');
+	element.setAttribute('src', 'img/logos/github-logo.png');
 }
 //Twitter
 function t_hover(element) 
 {
-	element.setAttribute('src', 'img/twitter-logo2.png');
+	element.setAttribute('src', 'img/logos/twitter-logo2.png');
 }
 
 function t_unhover(element) 
 {
-	element.setAttribute('src', 'img/twitter-logo.png');
+	element.setAttribute('src', 'img/logos/twitter-logo.png');
 }
 //Linkedin
 function l_hover(element) 
 {
-	element.setAttribute('src', 'img/linkedin-logo2.png');
+	element.setAttribute('src', 'img/logos/linkedin-logo2.png');
 }
 
 function l_unhover(element) 
 {
-	element.setAttribute('src', 'img/linkedin-logo.png');
+	element.setAttribute('src', 'img/logos/linkedin-logo.png');
 }
 
 /* ##### PROJECT ICONS ##### */
