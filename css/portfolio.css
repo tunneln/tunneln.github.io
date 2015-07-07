@@ -70,15 +70,20 @@ h4 a:hover {
 	font-weight: 700;
 }
 
-div.section {
+div.container {
 	position: absolute;
-//	background-color: #F0F2F3;
-	background-color: #E1E3E4;
+	background-color: #CACCCD;
 	margin-top: 3px;
-	height: 200px;
+	height: 180px;
 	width: 100%;
 	left: 0;
-	right: 0;	
+	right: 0;
+/*
+	background-image: url('../img/white_line.jpg');
+	background-size: 100% 100%;
+	background-position: center;
+	max-width: 100%;
+*/
 }
 
 h1.txt {
@@ -109,5 +114,61 @@ h1.txt {
 	height: 22px;
 	width: 22px;
 	margin-left: 60px;
-//	border: 1px solid white;
-}	
+}
+
+.sectionA {
+	margin-top: 120px;
+	margin-left: 30px;
+}
+
+h3.txt {
+	clear: both;
+	font-weight: 900;
+}
+/*
+li.projects {
+	float: left;
+	margin: 5px;
+	height: 2px;
+	width: 2px;
+}
+*/
+
+#space_invader {
+	float: left;
+	margin-left: 0%;
+	height: 100px;
+	width: 110px;
+}
+
+#gear {
+	float: left;
+	margin-left: 10%;
+	height: 100px;
+	width: 100px;
+}
+
+#poke {
+	float: left;
+	margin-left: 10%;
+	height: 100px;
+	width: 100px;
+}
+
+#microchip {
+	float: left;
+	margin-left: 10%;
+	height: 100px;
+	width: 100px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.projects {
+	
+}
+
+
+

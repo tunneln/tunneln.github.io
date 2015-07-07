@@ -2,29 +2,39 @@
 <html>
 	<head>
 		<title>Noel Negusse | Portfolio</title>
-		<link rel="shortcut icon" href="img/favicon.png" type="image/png"/>
+		<link rel="shortcut icon" href="img/primary/favicon.png" type="image/png"/>
 		<link rel="stylesheet" href="css/portfolio.css" type="text/css"/>
 		<script type="text/javascript" src="js/portfolio.js"></script>
 	</head>
 	<body>
 		<a href="index.html">
-			<img id="logo" src="img/logo.png"/>
+			<img id="logo" src="img/primary/logo.png"/>
 		</a>
-		<h4 class="txt"> 
+		<h4 class="txt">
 			<a href="index.html"><span style="font-weight: 700">Portfolio</span></a> 
-			<a href="blog.html">Blog </a> 
+			<a href="blog.html">Blog </a>
 			<a href="contact.html">Contact</a>
 		</h4>
-		<div class="section">
-			<h1 class="txt"> Noel Negusse </h1>
-
+		<div class="container">
+			<h1 class="txt"> Noel Negusse</h1>
 			<a href="https://github.com/tunneln">
-				<img id="git-logo" src="img/github-logo.png" onmouseover="g_hover(this);" onmouseout="g_unhover(this);"/>
+				<img id="git-logo" src="img/logos/github-logo.png" onmouseover="g_hover(this);" onmouseout="g_unhover(this);"/>
 			</a><a href="https://www.linkedin.com/in/noelnegusse">
-				<img id="linkedin-logo" src="img/linkedin-logo.png" onmouseover="l_hover(this);" onmouseout="l_unhover(this);"/>
+				<img id="linkedin-logo" src="img/logos/linkedin-logo.png" onmouseover="l_hover(this);" onmouseout="l_unhover(this);"/>
 			</a><a href="https://twitter.com/tunneln">
-				<img id="twitter-logo" src="img/twitter-logo.png" onmouseover="t_hover(this);" onmouseout="t_unhover(this);"/>
+				<img id="twitter-logo" src="img/logos/twitter-logo.png" onmouseover="t_hover(this);" onmouseout="t_unhover(this);"/>
 			</a>
+		
+
+			<div class="sectionA">
+				<h3 class="txt">Projects</h3>
+				<ul>
+					<li><img class="projects" id="space_invader" src="img/space_invader.jpg" onmouseover="si_hover(this);" onmouseout="si_unhover(this);"/></li>
+					<li><img class="projects" id="gear" src="img/gear.jpg" onmouseover="gear_hover(this);" onmouseout="gear_unhover(this);"/></li>
+					<li><img class="projects" id="poke" src="img/poke.png"onmouseover="poke_hover(this);" onmouseout="poke_unhover(this);"/></li>
+					<li><img class="projects" id="microchip" src="img/microchip.png" onmouseover="microchip_hover(this);" onmouseout="microchip_unhover(this);"/></li>
+				</ul>
+			</div>
 
 		</div>
 	</body>
