@@ -1,3 +1,4 @@
+/* FONTS ############ */
 @font-face {
 	font-family: "MuseoSans";
 	font-style: normal;
@@ -46,13 +47,47 @@
 	font-weight: 100;
 	src: url("../font/museosans_100-webfont.woff");
 }
+/* ######################## */
+/* ------------------------------------------------------------------ */
+/* CONTAINER ############ */
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	background-color: #FFFFFF;
+	top: 3px;
+	height: 1000px;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+/* ######################## */
+/* ------------------------------------------------------------------ */
+/* NAVIGATION ############ */
+header {
+	z-index: 99;
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	background-color: white;
+//	opacity: 0.6;
+}
+
+#nav {
+	position: fixed;
+	z-index: 100;
+	margin: 0;
+	top: 20px;
+	left: 50px;
+}
 
 #logo {
-	float: left;
 	height: 35px;
 	width: 35px;
-	margin-top: 10px;
-	margin-left: 10px;
+	margin-top: 30px;
+	margin-left: 15px;
 }       
 
 .txt {
@@ -62,7 +97,7 @@
 	font-weight: 300;
 }
 
-h4.txt {
+h4.txt { /*general*/
 	font-weight: 100;
 }
 
@@ -76,34 +111,47 @@ h4 a:hover {
 	text-decoration: none;
 	font-weight: 700;
 }
+/* ######################## */
+/* ------------------------------------------------------------------ */
+/* NAME ############ */
+#section0 {
+	position: relative;
+	height: 180px; 
+/*	top: 63px; different logo look */
+	top: 51px;
 
-div.container {
-	position: absolute;
-	background-color: #CACCCD;
-	margin-top: 3px;
-	height: 180px;
-	width: 100%;
-	left: 0;
-	right: 0;
 /*
 	background-image: url('../img/white_line.jpg');
 	background-size: 100% 100%;
 	background-position: center;
-	max-width: 100%;
 */
 }
 
-h1.txt {
+.box {
+	border: 1px solid #CACCCD;
+	border-radius: 16px; 
+	background-color: #CACCCD;
+	-webkit-box-shadow: 0px 3px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 3px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 3px -1px rgba(0,0,0,0.75);
+
+}
+
+h1.txt { /*general*/
+	font-size: 250%; 
+	position: absolute;
 	font-weight: 900;
-	margin-left: 20%;
-	margin-top: 50px;
+	left: 20%;
+	margin: 0;
+	top: 25%;
 }
 
 #git-logo {
 	float: left;
 	height: 22px;
 	width: 22px;
-	margin-left: 25%;
+	margin-left: 28%;
+	margin-top: 110px;
 }
 
 #linkedin-logo {
@@ -112,7 +160,7 @@ h1.txt {
 	height: 22px;
 	width: 22px;
 	margin-left: 60px;
-
+	margin-top: 110px;
 }
 
 #twitter-logo {
@@ -121,14 +169,27 @@ h1.txt {
 	height: 22px;
 	width: 22px;
 	margin-left: 60px;
+	margin-top: 110px;
+}
+/* ######################## */
+/* ------------------------------------------------------------------ */
+/* PROJECTS ############ */
+#sectionA {
+	margin-top: 80px;
 }
 
-.sectionA {
-	margin-top: 120px;
+#projects {
+	margin-top: 30px;
 	margin-left: 30px;
 }
 
-h3.txt {
+h3.txt { /*general*/
+	clear: both;
+	font-weight: 900;
+	font-size: 140%;
+}
+
+h2.txt { /*general*/ 
 	clear: both;
 	font-weight: 900;
 }
@@ -165,8 +226,9 @@ h3.txt {
 	width: 110px;
 }
 
-ul {
+ul { /*general*/
 	list-style-type: none;
+	
 }
 
 .title {
@@ -177,7 +239,7 @@ ul {
 	margin-bottom: -8px;
 }
 
-p.txt {
+p.txt { /*general*/
 	font-weight: 500;
 }
 
@@ -185,8 +247,7 @@ p.txt {
 	float: left;
 	border: 1px solid #CACCCD;
 	background-color: #CACCCD;
-	border-radius: 10px;
-	display: inline;
+	border-radius: 15px;
 	margin-left: 5%;
 	height: 110px;
 	width: 450px;
@@ -225,8 +286,45 @@ p.txt {
 	height: 9px;
 	width: 41px;
 }
-
-.sectionB {
-	margin-top: 10%;
-	margin-left: 30px;
+/* ######################## */
+/* ------------------------------------------------------------------ */
+/* SKILLS ############ */
+#sectionB {
+	clear: both;
+	margin-top: 160px;
 }	
+
+#skills {
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+ul.txt, li.txt {
+	font-family: MuseoSans, sans-serif;
+	font-weight: 900;
+	list-style-type: circle;
+	font-size: 16px;
+	text-align: left;
+	margin: 2em 0;
+}
+/* ######################## */
+/* ------------------------------------------------------------------ */
+/* EXPERIENCE ############ */
+#sectionC {
+	position: absolute;
+	background-color: #FFFFFF;
+	height: 300px;
+	width: 100%;
+	margin-top: 60%; 
+}
+
+#experience { 
+	margin-top: 30px; 
+	margin-left: 30px; 
+}
+/* ######################## */
+/* ------------------------------------------------------------------ */
+/* CONTACT */
+
+/* ######################## */
+

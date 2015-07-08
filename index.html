@@ -9,27 +9,40 @@
 		<script src="js/portfolio_jquery.js"></script>
 	</head>
 	<body>
-		<a href="index.html">
-			<img id="logo" src="img/primary/logo.png"/>
-		</a>
-		<h4 class="txt">
-			<a href="index.html"><span style="font-weight: 700">Portfolio</span></a> 
-			<a href="blog.html">Blog </a>
-			<a href="contact.html">Contact</a>
-		</h4>
-		<div class="container">
-			<h1 class="txt"> Noel Negusse</h1>
-			<a href="https://github.com/tunneln">
-				<img id="git-logo" src="img/logos/github-logo.png" onmouseover="g_hover(this);" onmouseout="g_unhover(this);"/>
-			</a><a href="https://www.linkedin.com/in/noelnegusse">
-				<img id="linkedin-logo" src="img/logos/linkedin-logo.png" onmouseover="l_hover(this);" onmouseout="l_unhover(this);"/>
-			</a><a href="https://twitter.com/tunneln">
-				<img id="twitter-logo" src="img/logos/twitter-logo.png" onmouseover="t_hover(this);" onmouseout="t_unhover(this);"/>
-			</a>
-		
+		<!-- ###### MAIN CONTAINER ###### -->
+		<div id="container">
+			<!-- ###### HEADER ###### -->
+			<header>
+				<a href="index.html">
+					<img id="logo" src="img/primary/logo.png"/>
+				</a>
+				<h4 class="txt" id="nav">
+					<a href="index.html"><span style="font-weight: 700">Portfolio</span></a> 
+					<a href="blog.html">Blog </a>
+					<a href="contact.html">Contact</a>
+				</h4>
+			</header>
 
-			<div class="sectionA">
-				<h3 class="txt">Projects</h3>
+
+			<!-- ###### SECTION 0 ###### -->
+			<section class="box" id="section0">
+				<a href="contact.html"><h1 class="txt" 
+						onmouseover="this.style.color='black';"
+						onmouseout="this.style.color='#313131';"> 
+						Noel Negusse</h1></a>
+				<a href="https://github.com/tunneln">
+					<img id="git-logo" src="img/logos/github-logo.png" onmouseover="g_hover(this);" onmouseout="g_unhover(this);"/>
+				</a><a href="https://www.linkedin.com/in/noelnegusse">
+					<img id="linkedin-logo" src="img/logos/linkedin-logo.png" onmouseover="l_hover(this);" onmouseout="l_unhover(this);"/>
+				</a><a href="https://twitter.com/tunneln">
+					<img id="twitter-logo" src="img/logos/twitter-logo.png" onmouseover="t_hover(this);" onmouseout="t_unhover(this);"/>
+				</a>	
+			</section><!--section0-->
+
+
+			<!-- ###### SECTION A ###### -->
+			<section id="sectionA">
+				<h3 class="txt" id="projects">Projects</h3>
 				<ul>
 					<li>
 						<a href="https://github.com/tunneln/Ascii_Invaders#get-started">
@@ -53,8 +66,8 @@
 					</li>
 
 					
-					<li>
-						<div id="ascii" class="description">
+					<li style="z-index:100;">
+						<div id="ascii" class="description box">
 							<h3 class="title" > Ascii Invaders </h3>
 							<p class="txt"> A simple remake of Space Invaders using ncurses and ASCII characters in <span style="font-weight: 900;">C++</span></p>
 							<a href="https://github.com/tunneln/Ascii_Invaders#get-started">
@@ -64,7 +77,7 @@
 								<img class="ellipsis" src="img/mis/ellipsis.png" onmouseover="ellipsis_hover(this);" onmouseout="ellipsis_unhover(this);"/>
 							</a>
 						</div>
-						<div id="vm" class="description">
+						<div id="vm" class="description box">
 							<h3 class="title" > Swapping & Paging Framework </h3>
 							<p class="txt"> A swap space framework and page fault handler designed and implemented in <span style="font-weight:900;">C</span> from the ground up for an ARM based kernel </p>
 							<a href="https://github.com/rellermeyer/course_os/wiki">
@@ -74,8 +87,8 @@
 								<img class="ellipsis" src="img/mis/ellipsis.png" onmouseover="ellipsis_hover(this);" onmouseout="ellipsis_unhover(this);"/>
 							</a>
 						</div>
-						<div id="autopoke" class="description">
-							<h3 class="title" > Facebook Autopoke Add-on </h3>
+						<div id="autopoke" class="description box">
+							<h3 class="title" > Autopoke Add-on </h3>
 							<p class="txt"> A Firefox add-on to automate poking back Facebook friends using <span style="font-weight:900;">CSS</span> and <span style="font-weight:900;">Javascript</span></p>							
 							<a href="">
 								<img class="octocat" src="img/logos/Octocat.png"/>
@@ -84,7 +97,7 @@
 								<img class="ellipsis" src="img/mis/ellipsis.png" onmouseover="ellipsis_hover(this);" onmouseout="ellipsis_unhover(this);"/>
 							</a>
 						</div>
-						<div id="device" class="description">
+						<div id="device" class="description box">
 							<h3 class="title" > Body Monitor  </h3>
 							<p class="txt"> A graphical testing mechanism designed in <span style="font-weight:900;">Java</span> for a wearable sensor capable of detecting the precursors of a fall using an on-board gyroscope and accelerometer </p>
 							<a href="">
@@ -93,12 +106,41 @@
 							<a href="">
 								<img class="ellipsis" src="img/mis/ellipsis.png" onmouseover="ellipsis_hover(this);" onmouseout="ellipsis_unhover(this);"/>
 							</a>
-						</div>
-		
+						</div>	
 					</li>
 				</ul>
-			</div>
+			</section><!--sectionA-->
+		
 
-		</div>
+			<!-- ###### SECTION B ###### -->
+			<section class="box" id="sectionB">
+				<div id="skills">
+					<h3 class="txt">Skills</h3>
+					<ul class="txt">
+						<li class="txt">C++/C</li>
+						<li class="txt">Java</li>
+						<li class="txt">*nix Systems/Shell Scripting</li>
+						<li class="txt">HTML5/CSS3</li>
+						<li class="txt">JavaScript/jQuery</li>
+						<li class="txt">x86(AT&ampT)/ARM Assembly
+					</ul>		
+				</section><!--skills-->
+			</section><!--sectionB-->
+			
+
+			<!-- ###### SECTION C ###### -->
+			<section id="sectionC"> 	
+				<div id="experience"> 
+					<h3 class="txt">Experience</h3> 
+				</div><!--experience-->
+			</section><!--sectionC-->
+
+
+			<!-- ###### SECTION D ###### -->
+			<footer class="box" id="sectionD">
+				
+			</footer><!--sectionD-->
+
+		</div><!--container-->
 	</body>
 </html>
