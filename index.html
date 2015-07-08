@@ -5,6 +5,8 @@
 		<link rel="shortcut icon" href="img/primary/favicon.png" type="image/png"/>
 		<link rel="stylesheet" href="css/portfolio.css" type="text/css"/>
 		<script type="text/javascript" src="js/portfolio.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="js/portfolio_jquery.js"></script>
 	</head>
 	<body>
 		<a href="index.html">
@@ -29,10 +31,71 @@
 			<div class="sectionA">
 				<h3 class="txt">Projects</h3>
 				<ul>
-					<li><img class="projects" id="space_invader" src="img/projects/space_invader.jpg" onmouseover="si_hover(this);" onmouseout="si_unhover(this);"/></li>
-					<li><img class="projects" id="gear" src="img/projects/gear.jpg" onmouseover="gear_hover(this);" onmouseout="gear_unhover(this);"/></li>
-					<li><img class="projects" id="poke" src="img/projects/poke.png"onmouseover="poke_hover(this);" onmouseout="poke_unhover(this);"/></li>
-					<li><img class="projects" id="microchip" src="img/projects/microchip.png" onmouseover="microchip_hover(this);" onmouseout="microchip_unhover(this);"/></li>
+					<li>
+						<a href="https://github.com/tunneln/Ascii_Invaders#get-started">
+							<img id="space_invader" src="img/projects/space_invader.jpg" onmouseover="si_hover(this); ascii_hover(document.getElementById('ascii'), document.getElementById('vm'), document.getElementById('autopoke'), document.getElementById('device'));" onmouseout="si_unhover(this);"/>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/rellermeyer/course_os">
+							<img id="gear" src="img/projects/gear.jpg" onmouseover="gear_hover(this); vm_hover(document.getElementById('ascii'), document.getElementById('vm'), document.getElementById('autopoke'), document.getElementById('device'));" onmouseout="gear_unhover(this);"/>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img id="poke" src="img/projects/poke.png" onmouseover="poke_hover(this); autopoke_hover(document.getElementById('ascii'), document.getElementById('vm'), document.getElementById('autopoke'), document.getElementById('device'));" onmouseout="poke_unhover(this);"/>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img id="microchip" src="img/projects/microchip.png" onmouseover="microchip_hover(this); device_hover(document.getElementById('ascii'), document.getElementById('vm'), document.getElementById('autopoke'), document.getElementById('device'));" onmouseout="microchip_unhover(this);"/>
+						</a>
+					</li>
+
+					
+					<li>
+						<div id="ascii" class="description">
+							<h3 class="title" > Ascii Invaders </h3>
+							<p class="txt"> A simple remake of Space Invaders using ncurses and ASCII characters in <span style="font-weight: 900;">C++</span></p>
+							<a href="https://github.com/tunneln/Ascii_Invaders#get-started">
+								<img class="octocat" src="img/logos/Octocat.png"/>
+							</a>
+							<a href="">
+								<img class="ellipsis" src="img/mis/ellipsis.png" onmouseover="ellipsis_hover(this);" onmouseout="ellipsis_unhover(this);"/>
+							</a>
+						</div>
+						<div id="vm" class="description">
+							<h3 class="title" > Swapping & Paging Framework </h3>
+							<p class="txt"> A swap space framework and page fault handler designed and implemented in <span style="font-weight:900;">C</span> from the ground up for an ARM based kernel </p>
+							<a href="https://github.com/rellermeyer/course_os/wiki">
+								<img class="octocat" src="img/logos/Octocat.png"/>
+							</a>
+							<a href="">
+								<img class="ellipsis" src="img/mis/ellipsis.png" onmouseover="ellipsis_hover(this);" onmouseout="ellipsis_unhover(this);"/>
+							</a>
+						</div>
+						<div id="autopoke" class="description">
+							<h3 class="title" > Facebook Autopoke Add-on </h3>
+							<p class="txt"> A Firefox add-on to automate poking back Facebook friends using <span style="font-weight:900;">CSS</span> and <span style="font-weight:900;">Javascript</span></p>							
+							<a href="">
+								<img class="octocat" src="img/logos/Octocat.png"/>
+							</a>
+							<a href="">
+								<img class="ellipsis" src="img/mis/ellipsis.png" onmouseover="ellipsis_hover(this);" onmouseout="ellipsis_unhover(this);"/>
+							</a>
+						</div>
+						<div id="device" class="description">
+							<h3 class="title" > Body Monitor  </h3>
+							<p class="txt"> A graphical testing mechanism designed in <span style="font-weight:900;">Java</span> for a wearable sensor capable of detecting the precursors of a fall using an on-board gyroscope and accelerometer </p>
+							<a href="">
+								<img class="octocat" src="img/logos/Octocat.png"/>
+							</a>
+							<a href="">
+								<img class="ellipsis" src="img/mis/ellipsis.png" onmouseover="ellipsis_hover(this);" onmouseout="ellipsis_unhover(this);"/>
+							</a>
+						</div>
+		
+					</li>
 				</ul>
 			</div>
 

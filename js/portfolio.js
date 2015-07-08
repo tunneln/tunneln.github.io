@@ -73,3 +73,46 @@ function microchip_unhover(element)
 {
 	element.setAttribute('src', 'img/projects/microchip.png');
 }
+
+/* ##### DESCRIPTIONS ##### */
+function ascii_hover(ascii, vm, autopoke, device)
+{
+	ascii.style.display='inline';
+	vm.style.display='none';
+	autopoke.style.display='none';
+	device.style.display='none';
+}
+
+function vm_hover(ascii, vm, autopoke, device)
+{
+	ascii.style.display='none';
+	vm.style.display='inline';
+	autopoke.style.display='none';
+	device.style.display='none';
+}
+
+function autopoke_hover(ascii, vm, autopoke, device)
+{
+	ascii.style.display='none';
+	vm.style.display='none';
+	autopoke.style.display='inline';
+	device.style.display='none';
+}
+
+function device_hover(ascii, vm, autopoke, device)
+{
+	ascii.style.display='none';
+	vm.style.display='none';
+	autopoke.style.display='none';
+	device.style.display='inline';
+}
+
+function ellipsis_hover(element)
+{
+	element.setAttribute('src', 'img/mis/ellipsis2.png');
+}
+
+function ellipsis_unhover(element)
+{
+	element.setAttribute('src', 'img/mis/ellipsis.png');
+}

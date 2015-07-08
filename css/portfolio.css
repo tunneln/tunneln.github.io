@@ -15,6 +15,13 @@
 @font-face {
 	font-family: "MuseoSans";
 	font-style: normal;
+	font-weight: 500;
+	src: url("../font/museosans_500-webfont-webfont.woff");
+}
+
+@font-face {
+	font-family: "MuseoSans";
+	font-style: normal;
 	font-weight: 700;
 	src: url("../font/museosans_700-webfont.woff");
 }
@@ -59,7 +66,7 @@ h4.txt {
 	font-weight: 100;
 }
 
-h4 a {
+h4 > a {
 	color: #313131;
 	text-decoration: none;
 }
@@ -125,50 +132,101 @@ h3.txt {
 	clear: both;
 	font-weight: 900;
 }
-/*
-li.projects {
-	float: left;
-	margin: 5px;
-	height: 2px;
-	width: 2px;
-}
-*/
 
 #space_invader {
 	float: left;
 	margin-left: 0%;
-	height: 100px;
-	width: 110px;
+	margin-bottom: 15px;
+	height: 110px;
+	width: 120px;
 }
 
 #gear {
 	float: left;
-	margin-left: 10%;
-	height: 100px;
-	width: 100px;
+	margin-left: 8%;
+	margin-bottom: 15px;
+	height: 110px;
+	width: 110px;
 }
 
 #poke {
 	float: left;
-	margin-left: 10%;
-	height: 100px;
-	width: 100px;
+	margin-left: 8%;
+	margin-bottom: 15px;
+	height: 110px;
+	width: 110px;
 }
 
 #microchip {
 	float: left;
-	margin-left: 10%;
-	height: 100px;
-	width: 100px;
+	margin-left: 8%;
+	margin-bottom: 15px;
+	height: 110px;
+	width: 110px;
 }
 
 ul {
 	list-style-type: none;
 }
 
-.projects {
-	
+.title {
+	color: #313131;
+	font-family: MuseoSans, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	margin-bottom: -8px;
 }
 
+p.txt {
+	font-weight: 500;
+}
 
+.description {
+	float: left;
+	border: 1px solid #CACCCD;
+	background-color: #CACCCD;
+	border-radius: 10px;
+	display: inline;
+	margin-left: 5%;
+	height: 110px;
+	width: 450px;
+	text-align: center;
+	position: relative;
+}
 
+#ascii {
+	display: none;
+}
+
+#vm {
+	display: none;
+}
+
+#autopoke {
+	display: none;
+}
+
+#device {
+	display: none;
+}
+
+.octocat {
+	position: absolute;
+	bottom: -25px;
+	left: -5px;
+	height: 40px;
+	width: 50px;
+}
+
+.ellipsis {
+	position: absolute;
+	bottom: -10px;
+	right: -5px;
+	height: 9px;
+	width: 41px;
+}
+
+.sectionB {
+	margin-top: 10%;
+	margin-left: 30px;
+}	
