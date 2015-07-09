@@ -335,7 +335,7 @@ ul.txt, li.txt
 	position:absolute;
 	top:0;
 	left:0;
-  	width:180px;
+  	width:155px;
 	font-weight:500;
 	font-size:13px;
 	color:#ffffff;
@@ -377,15 +377,81 @@ ul.txt, li.txt
 	margin-right: 40px;
 }
 
+#first {
+	float: left;
+	background-color: #313131;
+	border: 1px solid #313131;
+	height: 4px;
+	width: 1px;
+	margin-right:25%;
+	font-size: 12px;
+}
+
+
+#second {
+	float: left;
+	background-color: #313131;
+	border: 1px solid #313131;
+	height: 4px;
+	width: 1px;
+	margin-right: 25%;
+	font-size: 12px;
+}
+
+#third {
+	float: right;
+	background-color: #313131;
+	border: 1px solid #313131;
+	height: 4px;
+	width: 1px;
+	margin-right: 25%;
+	font-size: 12px;
+}
+
+#last {
+	float: right;
+	background-color: #313131;
+	border: 1px solid #313131;
+	height: 4px;
+	width: 1px;
+	margin-right: 40px;
+	font-size: 11px;
+}
+
+#over {
+	position: relative;
+	top: 5px;
+	right: 23px;	
+}
+
+#expert {
+	position: relative;
+	top: 5px;
+	right: 17px;	
+}
+
+#familiar {
+	position: relative;
+	top: 5px;
+	left: -2px;	
+}
+
+#proficient {
+	position: relative;
+	top: 5px;	
+	right: 25px;
+}
+
+
 /* ######################## */
 /* ------------------------------------------------------------------ */
 /* EXPERIENCE ############ */
 #sectionC {
+	z-index: -1;
 	position: absolute;
 	background-color: #FFFFFF;
-	height: 300px;
-	width: 100%;
-	margin-top: 60%; 
+	height: 200px;
+	width: 100%; 
 }
 
 #experience { 
