@@ -1,34 +1,63 @@
 /* ##### SOCIAL MEDIA LOGOS ##### */
 
 // Github
-function g_hover(element) 
+function g_hover(element, github, linkedin, twitter, me) 
 {
 	element.setAttribute('src', 'img/logos/github-logo2.png');
+	github.style.display = 'block';
+	linkedin.style.display = 'none';
+	twitter.style.display = 'none';
+	me.style.display = 'none';
+
 }
 
-function g_unhover(element) 
+function g_unhover(element, github) 
 {
 	element.setAttribute('src', 'img/logos/github-logo.png');
+	github.style.display = 'none';
 }
 //Twitter
-function t_hover(element) 
+function t_hover(element, github, linkedin, twitter, me) 
 {
 	element.setAttribute('src', 'img/logos/twitter-logo2.png');
+	github.style.display = 'none';
+	linkedin.style.display = 'none';
+	twitter.style.display = 'block';
+	me.style.display = 'none';
+
 }
 
-function t_unhover(element) 
+function t_unhover(element, twitter) 
 {
 	element.setAttribute('src', 'img/logos/twitter-logo.png');
+	twitter.style.display = 'none';
+
 }
 //Linkedin
-function l_hover(element) 
+function l_hover(element, github, linkedin, twitter, me) 
 {
 	element.setAttribute('src', 'img/logos/linkedin-logo2.png');
+	github.style.display = 'none';
+	linkedin.style.display = 'block';
+	twitter.style.display = 'none';
+	me.style.display = 'none';
 }
 
-function l_unhover(element) 
+function l_unhover(element, linkedin) 
 {
 	element.setAttribute('src', 'img/logos/linkedin-logo.png');
+	linkedin.style.display = 'none';
+}
+
+function me_hover(me)
+{
+	me.style.display = 'block';
+}
+
+function me_unhover(me)
+{
+	me.style.display = 'none';
+
 }
 
 /* ##### PROJECT ICONS ##### */

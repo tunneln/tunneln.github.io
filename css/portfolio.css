@@ -118,13 +118,23 @@ h4 a:hover {
 	position: relative;
 	height: 180px; 
 /*	top: 63px; different logo look */
-	top: 51px;
-
+	top: 51px;	
 /*
 	background-image: url('../img/white_line.jpg');
 	background-size: 100% 100%;
 	background-position: center;
 */
+}
+
+p.aboutme {
+	position: absolute;
+	font-weight: 500;
+	top: 25%;
+	right: 10%;	
+}
+
+#txt {
+	display: none;
 }
 
 .box {
@@ -145,6 +155,22 @@ h1.txt { /*general*/
 	top: 25%;
 }
 
+#img-box {
+	float: right;
+	margin-left: 20px;
+	width: 40%;
+	height: 100%;
+//	border: 1px solid red;
+}
+
+#github-img {
+	display: none;
+	margin: auto;
+	margin-top: 34px;
+	width: 80%;
+	height: 60%;
+}
+
 #git-logo {
 	float: left;
 	height: 22px;
@@ -153,8 +179,16 @@ h1.txt { /*general*/
 	margin-top: 110px;
 }
 
+#linkedin-img {
+	display: none;
+	margin: auto;
+	margin-top: 34px;
+	width: 80%;
+	height: 60%;
+}
+
 #linkedin-logo {
-	border: 1px solid white;
+	border: 1px solid #313131;
 	float: left;
 	height: 22px;
 	width: 22px;
@@ -162,14 +196,27 @@ h1.txt { /*general*/
 	margin-top: 110px;
 }
 
+#twitter-img {
+	display: none;
+	margin: auto;
+	margin-top: 34px;
+	width: 60%;
+	height: 60%;
+}
+
 #twitter-logo {
-	position: absolute;
+/*	position: absolute; */
 	float: left;
 	height: 22px;
 	width: 22px;
 	margin-left: 60px;
 	margin-top: 110px;
 }
+
+#me {
+	display: none;
+}
+
 /* ######################## */
 /* ------------------------------------------------------------------ */
 /* PROJECTS ############ */
@@ -309,66 +356,65 @@ ul.txt, li.txt
 }
 
 .skillbar {
-	position:relative;
-	display:block;
-	margin-bottom:15px;
-	width:100%;
-	background:#CACCCC; /*indent color*/
-	height:35px;
-	border-radius:3px;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-	-webkit-transition:0.4s linear;
-	-moz-transition:0.4s linear;
-	-ms-transition:0.4s linear;
-	-o-transition:0.4s linear;
-	transition:0.4s linear;
-	-webkit-transition-property:width, background-color;
-	-moz-transition-property:width, background-color;
-	-ms-transition-property:width, background-color;
-	-o-transition-property:width, background-color;
-	transition-property:width, background-color;
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+	width: 100%;
+	background: #CACCCC; /*indent color*/
+	height: 35px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-ms-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+	transition: 0.4s linear;
+	-webkit-transition-property: width, background-color;
+	-moz-transition-property: width, background-color;
+	-ms-transition-property: width, background-color;
+	-o-transition-property: width, background-color;
+	transition-property: width, background-color;
 }
 
-
 .skillbar-title {
-	position:absolute;
-	top:0;
-	left:0;
-  	width:155px;
-	font-weight:500;
-	font-size:13px;
-	color:#ffffff;
-  	background:white;
-	-webkit-border-top-left-radius:3px;
-	-webkit-border-bottom-left-radius:4px;
-	-moz-border-radius-topleft:3px;
-	-moz-border-radius-bottomleft:3px;
-	border-top-left-radius:3px;
-	border-bottom-left-radius:3px;
+	position: absolute;
+	top: 0;
+	left: 0;
+  	width: 152px;
+	font-weight: 500;
+	font-size: 13px;
+	color: #ffffff;
+  	background: white;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
 }
 
 .skillbar-title span {
-	display:block;
+	display: block;
 	background:rgba(0, 0, 0, 0.1);
-	padding:0 20px;
-	height:35px;
-	line-height:35px;
-	-webkit-border-top-left-radius:3px;
-	-webkit-border-bottom-left-radius:3px;
-	-moz-border-radius-topleft:3px;
-	-moz-border-radius-bottomleft:3px;
-	border-top-left-radius:3px;
-	border-bottom-left-radius:3px;
+	padding: 0 0px 0 20px;
+	height: 35px;
+	line-height: 35px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
 }
 
 .skillbar-bar {
-	height:35px;
-	width:0px;
-	background:#6adcfa;
-	border-radius:3px;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
+	height: 35px;
+	width: 0px;
+	background: #6adcfa;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
 }
 
 #legend {
@@ -438,7 +484,7 @@ ul.txt, li.txt
 
 #proficient {
 	position: relative;
-	top: 5px;	
+	top: 5px;
 	right: 25px;
 }
 
@@ -454,10 +500,49 @@ ul.txt, li.txt
 	width: 100%; 
 }
 
-#experience { 
+#experience {
+	float: left;
+//	border: 1px solid black;
 	margin-top: 30px; 
 	margin-left: 30px; 
 }
+
+#education {
+//	border: 1px solid green;
+	float: left; 
+	margin-top: 30px;
+	padding-top: 48px;
+	height: 350px;
+	padding-left: 20px;
+}
+
+.dates {
+	margin-left: 400px;
+	margin-bottom: -5px;
+}
+
+.jobs {
+	margin-bottom: -20px; 
+	font-weight: 500; 
+	font-size: 120%; 
+	margin-left: 30px;
+	color: #313131;
+	font-family: MuseoSans;
+	font-style: normal;
+}
+
+.jobd {
+	list-style-type: circle;
+	font-size: 95%;
+	color: #313131;
+	font-family: MuseoSans;
+	font-style: normal;
+	font-weight: 300;
+	margin-bottom: 10px;
+	text-align: justify;
+	width: 40em;
+}
+
 /* ######################## */
 /* ------------------------------------------------------------------ */
 /* CONTACT */

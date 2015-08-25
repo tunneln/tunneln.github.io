@@ -27,18 +27,26 @@
 			<!-- ###### SECTION 0 ###### -->
 			<section class="box" id="section0">
 				<a href="contact.html"><h1 class="txt" 
-						onmouseover="this.style.color='black';"
-						onmouseout="this.style.color='#313131';"> 
+			       onmouseover="this.style.color='black'; me_hover(getElementById('me'), getElementById);"
+						onmouseout="this.style.color='#313131';">
 						Noel Negusse</h1></a>
+				<p id="txt" class="aboutme"> about me and stuffff </p>
 				<a href="https://github.com/tunneln">
-					<img id="git-logo" src="img/logos/github-logo.png" onmouseover="g_hover(this);" onmouseout="g_unhover(this);"/>
+					<img id="git-logo" src="img/logos/github-logo.png" onmouseover="g_hover(this, getElementById('github-img'), getElementById('linkedin-img'), getElementById('twitter-img'), getElementById('me') );" onmouseout="g_unhover(this, getElementById('github-img') );"/>
 				</a><a href="https://www.linkedin.com/in/noelnegusse">
-					<img id="linkedin-logo" src="img/logos/linkedin-logo.png" onmouseover="l_hover(this);" onmouseout="l_unhover(this);"/>
+					<img id="linkedin-logo" src="img/logos/linkedin-logo.png" onmouseover="l_hover(this, getElementById('github-img'), getElementById('linkedin-img'), getElementById('twitter-img'), getElementById('me') );" onmouseout="l_unhover(this, getElementById('linkedin-img') );"/>
 				</a><a href="https://twitter.com/tunneln">
-					<img id="twitter-logo" src="img/logos/twitter-logo.png" onmouseover="t_hover(this);" onmouseout="t_unhover(this);"/>
-				</a>	
+					<img id="twitter-logo" src="img/logos/twitter-logo.png" onmouseover="t_hover(this, getElementById('github-img'), getElementById('linkedin-img'), getElementById('twitter-img'), getElementById('me') );" onmouseout="t_unhover(this, getElementById('twitter-img') );"/>
+				</a>
+				
+				<div id="img-box">	
+					<!-- <img id="me" src=""/> -->
+					<img id="linkedin-img" src="img/logos/linkedin-big.png"/>
+					<img id="github-img" src="img/logos/github-big.png"/>
+					<img id="twitter-img" src="img/logos/twitter-logo2.png"/>
+				</div>
 			</section><!--section0-->
-
+			 
 
 			<!-- ###### SECTION A ###### -->
 			<section id="sectionA">
@@ -110,7 +118,7 @@
 					</li>
 				</ul>
 			</section><!--sectionA-->
-		
+
 
 			<!-- ###### SECTION B ###### -->
 			<section class="box" id="sectionB">
@@ -119,7 +127,7 @@
 					<ul class="txt">
 						<li class="txt">
 							<div class="skillbar clearfix " data-percent="50%">
-								<div class="skillbar-title" style="background: #F1672C;"><span>HTML5</span></div><!--#E55126-->
+								<div class="skillbar-title" style="background: #E55126;"><span>HTML5</span></div>
 								<div class="skillbar-bar" style="background: #F1672C;"></div>
 							</div> <!-- End Skill Bar --></li>
 						<li class="txt">
@@ -148,7 +156,7 @@
 						</li>
 						<li class="txt">
 							<div class="skillbar clearfix " data-percent="60%">
-								<div class="skillbar-title" style="background: #27ae60;"><span>UN*X/Shell Script</span></div>
+								<div class="skillbar-title" style="background: #27ae60;"><span>UN*X/Shell Scripting</span></div>
 								<div class="skillbar-bar" style="background: #2ecc71;"></div>
 						</div> <!-- End Skill Bar -->
 						</li>
@@ -168,16 +176,42 @@
 					</ul>		
 				</section><!--skills-->
 			</section><!--sectionB-->
-			
+	
 
 			<!-- ###### SECTION C ###### -->
 			<section id="sectionC"> 	
 				<div id="experience"> 
-					<h3 class="txt">Experience</h3> 
+						<h3 class="txt">Experience</h3> 
+						<h3 class="jobs">Server Administration Intern - KidsCare Therapy</h3>
+						<h5 class="txt dates">June 2014 - August 2014</h5>
+						<ul class="jobd">
+							<li class="jobd">  Pushed out virtual machines from the cloud to the individual workstations within an office </li>
+							<li class="jobd">  Monitored and maintained the kidscare office servers alongside the head system admin</li>
+							<li class="jobd">  Gained experience with VMware Hypervisor, cloud computing, and general networking</li>
+						</ul>
+						<h3 class="jobs">CS/EE Research Intern - The University of Texas at Dallas</h3>
+						<h5 class="txt dates">Janurary 2013 - May 2013</h5>
+						<ul class="jobd">
+							<li class="jobd"> Collaborated in programming (Java, C#) and testing a wearable wireless sensor </li>
+							<li class="jobd"> Uses included fall prevention in the elderly and measuring levels of impairment, i.e. drunk drivers, by applying the use of an on-board gyroscope and accelerometer </li>
+						</ul>
+						<h3 class="jobs">Information Technology Intern - RISD IT Department</h3>
+						<h5 class="txt dates">June 2012 - August 2012</h5>
+						<ul class="jobd">
+							<li class="jobd"> Created and organized wireless nodes for multistory school networks with AutoCAD</li>
+							<li class="jobd"> Prevented conflicts with frequency overlaps to ensure reliable connections</li>
+						</ul>
+
 				</div><!--experience-->
+					<div id="education">
+						<h3 class="jobs" style="margin-bottom:-20px;">Education</h3>
+						<h5 class="jobd" style="margin-bottom:-20px; padding-left:30px">The University of Texas at Austin</h5>
+						<h5 class="jobd" style="margin-bottom:-20px; padding-left:30px">Bachelor of Science in Computer Science</h5>
+						<h5 class="jobd" style="margin-bottom:-20px; padding-left:30px">Expected Graduation: 2017</h5>
+					</div><!--education-->	
 			</section><!--sectionC-->
-
-
+		
+		
 		</div><!--container-->
 	</body>
 </html>
