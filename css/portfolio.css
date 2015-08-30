@@ -58,7 +58,7 @@ html, body {
 #container {
 	background-color: #FFFFFF;
 	top: 3px;
-	height: 1000px;
+	height: 100%;
 	width: 100%;
 	margin-left: 0;
 	margin-right: 0;
@@ -338,7 +338,8 @@ p.txt { /*general*/
 #sectionB {
 	clear: both;
 	margin-top: 160px;
-}	
+}
+	
 
 #skills {
 	margin-top: 30px;
@@ -350,7 +351,14 @@ ul.txt, li.txt
 	font-family: MuseoSans, sans-serif;
 	font-weight: 900;
 	list-style-type: none;
-	font-size: 16px;
+	font#contact {
+	position: relative;
+	border: 1px solid red;
+	height: 400px;
+	width: 100%;
+	top: 30px;
+	left: 30px;
+}-size: 16px;
 	text-align: left;
 	margin: 2em 0;
 }
@@ -492,48 +500,37 @@ ul.txt, li.txt
 /* ------------------------------------------------------------------ */
 /* EXPERIENCE ############ */
 #sectionC {
-	z-index: -1;
-	position: absolute;
-	background-color: #FFFFFF;
-	height: 100%;
-	width: 100%;	
+	height: auto;
+	width: 100%;
 }
 
 #experience {
-	position: relative;
 	display: inline-block; 
-	top: 30px; 
-	left: 30px;
-	height: auto;
-	width: 100%;
-//	border: 1px solid red;
+	padding-top: 30px; 
+	padding-left: 30px;
 }
 
 #education {
-	float: right;
+	float: right;	
 	width: 500px;
 	height: auto;
-	margin-top: 33px;
-//	border: 1px solid green;
+	margin-top: 32px;
 }
 
 #jobs {
 	float: left;
-//	border: 1px solid blue;
 }
 
 #courses {
 	float: right;
 	width: 500px;
 	height: auto;
-//	border: 1px solid purple;
 }
 
 #honors {
 	float: right;
 	width: 500px;
 	height: auto;
-//	border: 1px solid brown;
 }
 
 .dates {
@@ -578,6 +575,11 @@ ul.txt, li.txt
 /* ######################## */
 /* ------------------------------------------------------------------ */
 /* CONTACT */
+
+#sectionD {
+	height: 400px;
+	width: 100%;
+}
 
 /* ######################## */
 
