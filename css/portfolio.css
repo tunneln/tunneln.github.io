@@ -160,7 +160,6 @@ h1.txt { /*general*/
 	margin-left: 20px;
 	width: 40%;
 	height: 100%;
-//	border: 1px solid red;
 }
 
 #github-img {
@@ -351,14 +350,7 @@ ul.txt, li.txt
 	font-family: MuseoSans, sans-serif;
 	font-weight: 900;
 	list-style-type: none;
-	font#contact {
-	position: relative;
-	border: 1px solid red;
-	height: 400px;
-	width: 100%;
-	top: 30px;
-	left: 30px;
-}-size: 16px;
+	font-size: 16px;
 	text-align: left;
 	margin: 2em 0;
 }
@@ -502,12 +494,14 @@ ul.txt, li.txt
 #sectionC {
 	height: auto;
 	width: 100%;
+	overflow: hidden;
 }
 
 #experience {
 	display: inline-block; 
 	padding-top: 30px; 
 	padding-left: 30px;
+	width: 100%;
 }
 
 #education {
@@ -570,6 +564,7 @@ ul.txt, li.txt
 	margin-bottom: 5px;
 	text-align: justify;
 	width: 40em;
+//	display: inline-block;
 }
 
 /* ######################## */
@@ -577,8 +572,136 @@ ul.txt, li.txt
 /* CONTACT */
 
 #sectionD {
-	height: 400px;
+	height: 600px;
 	width: 100%;
+}
+
+#contact {
+	position: absolute;
+	right: 0;
+	height: 450px; 
+	width: 66%;
+	border: 1px solid red;
+	display: inline-block;
+}
+
+input {
+	position: relative;
+	float: left;
+	border: none;
+	border-style: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 75%;
+	height: 40px;
+	line-height: 40px;
+	left: 0px;
+}
+
+.foo {
+	color: #313131;
+	padding: 0px 10px;
+	display: inline-block;
+	width: 85px;
+	float: left;
+	border: 1px solid white;
+	background: white;
+	line-height: 40px;
+}
+
+#nam {
+	position: relative;
+}
+
+#ema {
+	clear: left;
+	position: relative;
+	top: 15px;
+}
+
+#mes {
+	z-index: 99;
+	clear: left;
+	position: relative;
+	top: 15px;
+	padding-bottom: 130px;
+}
+
+.fooo {
+	position: relative;
+	color: #313131;
+	padding: 0px 10px;
+	display: inline-block;
+	width: 85px;
+	clear:both;
+	float: left;
+	border: 1px solid white;
+	background: white;
+	line-height: 40px;
+}
+
+input, textarea {
+	resize: none;
+	color: #454545;
+	font-size: 15px;
+}
+
+textarea {
+	position: relative;
+	top: 2px;
+	float: left;
+	height: 160px;
+	width: 75%;
+	border: none;
+	border-style: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	line-height: 17px;
+	z-index: 100;
+}
+
+#fullname {
+
+}
+
+#email {
+	margin-top: 15px;	
+}
+
+#message {
+	margin-top: 25px;
+}
+
+#submit {
+	position: absolute;
+	clear: both;
+	height: 50px;
+	width: 12%; 
+	background-color:#313131;
+	color:#CACCCD;
+	font-weight: 500;
+	font-size: 105%;
+	opacity: 1;
+	bottom: 108px;
+	left: 0;
+}
+
+#bufferspace {
+	position: relative;
+	width: 75%;
+	height: 10px;
+	border: 1px solid white;
+	color: white;
+	background: white;
+	float: left;
+	bottom: 171px;
+	left: 107px;
+}
+
+#submit:hover {
+	background-color: #5a5a5a;
 }
 
 /* ######################## */
