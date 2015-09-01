@@ -572,16 +572,17 @@ ul.txt, li.txt
 /* CONTACT */
 
 #sectionD {
+	position: absolute;
 	height: 600px;
 	width: 100%;
 }
 
 #contact {
 	position: absolute;
+	top: 100px;
 	right: 0;
 	height: 450px; 
 	width: 66%;
-	border: 1px solid red;
 	display: inline-block;
 }
 
