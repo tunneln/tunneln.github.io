@@ -232,7 +232,7 @@ h1.txt { /*general*/
 h3.txt { /*general*/
 	clear: both;
 	font-weight: 900;
-	font-size: 140%;
+	font-size: 140%; /*I may want to increase title size*/
 }
 
 h2.txt { /*general*/ 
@@ -492,8 +492,9 @@ ul.txt, li.txt {
 /* EXPERIENCE ############ */
 #sectionC {
 	height: auto;
-	width: 100%;
+	width: 99%;
 	overflow: hidden;
+//	border: 1px solid red;
 }
 
 #experience {
@@ -501,34 +502,41 @@ ul.txt, li.txt {
 	padding-top: 30px; 
 	padding-left: 30px;
 	width: 100%;
+//	border: 1px solid blue;
 }
 
 #education {
 	float: right;	
-	width: 500px;
+	width: 40%;
 	height: auto;
 	margin-top: 32px;
+//	border: 1px solid red;
 }
 
 #jobs {
 	float: left;
+	width: 50%;
+//	border: 1px solid orange;
 }
 
 #courses {
 	float: right;
-	width: 500px;
+	width: 40%;
 	height: auto;
+//	border: 1px solid green;
 }
 
 #honors {
 	float: right;
-	width: 500px;
+	width: 40%;
 	height: auto;
+//	border: 1px solid pink;
 }
 
 .dates {
-	margin-left: 400px;
+	margin-left: 58%;
 	margin-bottom: -5px;
+	font-weight: 500;
 }
 
 .jobs {
@@ -550,7 +558,7 @@ ul.txt, li.txt {
 	font-weight: 300;
 	margin-bottom: 10px;
 	text-align: justify;
-	width: 40em;
+	width: 93%;
 }
 
 .jobdx {
@@ -566,6 +574,9 @@ ul.txt, li.txt {
 //	display: inline-block;
 }
 
+.resume:hover {
+	font-weight: 700;
+}
 /* ######################## */
 /* ------------------------------------------------------------------ */
 /* CONTACT */
@@ -654,9 +665,9 @@ input, textarea {
 }
 
 textarea {
-	position: relative;
-	top: 2px;
-	float: left;
+	position: absolute;
+	top: 97px;
+	left: 105px;
 	height: 160px;
 	width: 75%;
 	border: none;
@@ -664,8 +675,8 @@ textarea {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	line-height: 17px;
-	z-index: 100;
+	line-height: 18px;
+	z-index: 1000;
 }
 
 #fullname {
@@ -690,19 +701,19 @@ textarea {
 	font-weight: 500;
 	font-size: 105%;
 	opacity: 1;
-	bottom: 108px;
+	bottom: 107px;
 	left: 0;
 }
 
 #bufferspace {
-	position: relative;
+	position: absolute;
 	width: 75%;
 	height: 10px;
 	border: 1px solid white;
 	color: white;
 	background: white;
-	float: left;
 	bottom: 171px;
+	top: 114px;
 	left: 107px;
 }
 
@@ -764,7 +775,6 @@ textarea {
 	top: 28px;
 	right: 6%;
 }
-
 
 /* ######################## */
 
