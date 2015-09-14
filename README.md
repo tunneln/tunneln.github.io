@@ -2,4 +2,4 @@
 My personal portfolio and blog
 
 
-Note: Still under construction [here]([noelnegusse.com)
+Note: Still under construction [here]([http://noelnegusse.com)
