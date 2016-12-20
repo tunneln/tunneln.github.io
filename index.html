@@ -12,13 +12,14 @@
 	<body>
 		<!-- ###### MAIN CONTAINER ###### -->
 		<div id="container">
+
 			<!-- ###### HEADER ###### -->
 			<header>
 				<a href="index.html">
 					<img id="logo" src="img/primary/logo.png"/>
 				</a>
 				<h4 class="txt" id="nav">
-					<a href="index.html"><span style="font-weight: 700">Portfolio</span></a> 
+					<a href="index.html"><span style="font-weight: 700">Portfolio</span></a>
 					<a href="blog.html">Blog </a>
 					<a href="#sectionD">Contact</a>
 				</h4>
@@ -27,8 +28,8 @@
 
 			<!-- ###### SECTION 0 ###### -->
 			<section class="box" id="section0">
-				<a href="contact.html"><h1 class="txt" 
-			       onmouseover="this.style.color='black'; me_hover(getElementById('me'), getElementById);"
+				<a href="contact.html"><h1 class="txt"
+					onmouseover="this.style.color='black'; me_hover(getElementById('me'), getElementById);"
 						onmouseout="this.style.color='#313131';">
 						Noel Negusse</h1></a>
 				<p id="txt" class="aboutme"> about me and stuffff </p>
@@ -39,15 +40,15 @@
 				</a><a href="https://twitter.com/tunneln">
 					<img id="twitter-logo" src="img/logos/twitter-logo.png" onmouseover="t_hover(this, getElementById('github-img'), getElementById('linkedin-img'), getElementById('twitter-img'), getElementById('me') );" onmouseout="t_unhover(this, getElementById('twitter-img') );"/>
 				</a>
-				
-				<div id="img-box">	
+
+				<div id="img-box">
 					<!-- <img id="me" src=""/> -->
 					<img id="linkedin-img" src="img/logos/linkedin-big.png"/>
 					<img id="github-img" src="img/logos/github-big.png"/>
 					<img id="twitter-img" src="img/logos/twitter-logo3.png"/>
 				</div>
 			</section><!--section0-->
-			 
+
 
 			<!-- ###### SECTION A ###### -->
 			<section id="sectionA">
@@ -74,11 +75,9 @@
 						</a>
 					</li>
 
-					
-					<li style="z-index:100;">
 						<div id="ascii" class="description box">
 							<h3 class="title" > Ascii Invaders </h3>
-							<p class="txt"> A simple remake of Space Invaders using ncurses and ASCII characters in <span style="font-weight: 900;">C++</span></p>
+							<p class="txt"> A simple remake of Space Invaders using ncurses library and ASCII characters in <span style="font-weight: 900;">C++</span></p>
 							<a href="https://github.com/tunneln/Ascii_Invaders#get-started">
 								<img class="octocat" src="img/logos/Octocat.png"/>
 							</a>
@@ -98,7 +97,7 @@
 						</div>
 						<div id="autopoke" class="description box">
 							<h3 class="title" > Autopoke Add-on </h3>
-							<p class="txt"> A Firefox add-on to automate poking back Facebook friends using <span style="font-weight:900;">CSS</span> and <span style="font-weight:900;">Javascript</span></p>							
+							<p class="txt"> A Firefox add-on to automate poking back Facebook friends using <span style="font-weight:900;">CSS</span> and <span style="font-weight:900;">Javascript</span></p>
 							<a href="">
 								<img class="octocat" src="img/logos/Octocat.png"/>
 							</a>
@@ -115,7 +114,7 @@
 							<a href="">
 								<img class="ellipsis" src="img/mis/ellipsis.png" onmouseover="ellipsis_hover(this);" onmouseout="ellipsis_unhover(this);"/>
 							</a>
-						</div>	
+						</div>
 					</li>
 				</ul>
 			</section><!--sectionA-->
@@ -135,7 +134,7 @@
 							<div class="skillbar clearfix " data-percent="30%">
 								<div class="skillbar-title" style="background: #2980b9;"><span>Verilog</span></div>
 								<div class="skillbar-bar" style="background: #3498db;"></div>
-							</div> <!-- End Skill Bar -->			
+							</div> <!-- End Skill Bar -->
 						</li>
 						<li class="txt">
 							<div class="skillbar clearfix " data-percent="60%">
@@ -161,7 +160,7 @@
 								<div class="skillbar-bar" style="background: #2ecc71;"></div>
 						</div> <!-- End Skill Bar -->
 						</li>
-						<li class="txt">	
+						<li class="txt">
 							<div class="skillbar clearfix " data-percent="25%">
 								<div class="skillbar-title" style="background: #46465e"><span>x86/ARM Assembly</span></div>
 								<div class="skillbar-bar" style="background: #5a68a5;"></div>
@@ -172,18 +171,18 @@
 							<div id="last"><span id="over">Expert</span></div>
 							<div id="third"><span id="expert">Proficient</span></div>
 							<div id="second"><span id="familiar">Familiar</span></div>
-							<div id="first"><span id="proficient">Comfortable</span></div>	
+							<div id="first"><span id="proficient">Comfortable</span></div>
 						</li>
-					</ul>		
+					</ul>
 				</section><!--skills-->
 			</section><!--sectionB-->
-	
+
 
 			<!-- ###### SECTION C ###### -->
-			<section id="sectionC"> 	
+			<section id="sectionC">
 				<div id="experience">
 					<div id="jobs">
-						<h3 class="txt" style="margin-top:0;">Experience</h3> 
+						<h3 class="txt" style="margin-top:0;">Experience</h3>
 						<h3 class="jobs" style="margin-top: 40px;">Software Engineer Intern - Vectra Networks, Inc.</h3>
 						<h5 class="txt dates">June 2016 - August 2016</h5>
 						<ul class="jobd">
@@ -240,11 +239,14 @@
 					</div>
 				</div><!--experience-->
 			</section><!--sectionC-->
+
+
+			<!-- ###### SECTION D ###### -->
 			<footer class="box" id="sectionD">
 				<h3 class="txt" style="margin-top:30px; margin-left:30px;">Get in touch</h3>
 				<div id="contact">
 					<form action="http://www.cs.utexas.edu/~noel/sendemail.php" method="post">
-				       		<label for="Name">
+						<label for="Name">
 							<span id="nam" class="txt fooo">Name</span>
 						</label>
 						<input type="text"  name="name" id="fullname" required="required"/>
@@ -255,13 +257,13 @@
 						<input type="email" name="email" id="email" required="required"/>
 						<br>
 						<label for="Message">
-							<span id="mes" class="txt foo">Message</span>	
+							<span id="mes" class="txt foo">Message</span>
 						</label>
 						<textarea class="txt" name="message" rows="6" cols="30" id="message" required="required"></textarea>
 						<br>
 						<input class="txt" id="submit" type="submit" name="submit" value="Send"/>
 						<div id="bufferspace"></div>
-					</form>		
+					</form>
 				</div><!--contact-->
 				<div id="bio">
 					<div id="info">
@@ -275,7 +277,7 @@
 						</span>
 					</div>
 					<img id="profile" src="img/mis/profile.png"/>
-					
+
 					<div id="phone">
 						<span class="txt" style="font-weight: 700;">(469) 432-7203</span>
 					</div>

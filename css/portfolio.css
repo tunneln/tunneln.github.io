@@ -73,7 +73,7 @@ header {
 	height: 50px;
 	width: 100%;
 	background-color: white;
-//	opacity: 0.6;
+/*	opacity: 0.6; */
 }
 
 #nav {
@@ -89,7 +89,7 @@ header {
 	width: 35px;
 	margin-top: 30px;
 	margin-left: 15px;
-}       
+}
 
 .txt {
 	color: #313131;
@@ -117,9 +117,9 @@ h4 a:hover {
 /* NAME ############ */
 #section0 {
 	position: relative;
-	height: 180px; 
+	height: 180px;
 /*	top: 63px; different logo look */
-	top: 51px;	
+	top: 51px;
 /*
 	background-image: url('../img/white_line.jpg');
 	background-size: 100% 100%;
@@ -131,7 +131,7 @@ p.aboutme {
 	position: absolute;
 	font-weight: 500;
 	top: 25%;
-	right: 10%;	
+	right: 10%;
 }
 
 #txt {
@@ -140,7 +140,7 @@ p.aboutme {
 
 .box {
 	border: 1px solid #CACCCD;
-	border-radius: 16px; 
+	border-radius: 16px;
 	background-color: #CACCCD;
 	-webkit-box-shadow: 0px 3px 3px -1px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 3px 3px -1px rgba(0,0,0,0.75);
@@ -148,7 +148,7 @@ p.aboutme {
 }
 
 h1.txt { /*general*/
-	font-size: 250%; 
+	font-size: 250%;
 	position: absolute;
 	font-weight: 900;
 	left: 20%;
@@ -235,7 +235,7 @@ h3.txt { /*general*/
 	font-size: 140%; /*I may want to increase title size*/
 }
 
-h2.txt { /*general*/ 
+h2.txt { /*general*/
 	clear: both;
 	font-weight: 900;
 }
@@ -274,7 +274,7 @@ h2.txt { /*general*/
 
 ul { /*general*/
 	list-style-type: none;
-	
+
 }
 
 .title {
@@ -339,7 +339,7 @@ p.txt { /*general*/
 	clear: both;
 	margin-top: 160px;
 }
-	
+
 #skills {
 	margin-top: 30px;
 	margin-left: 30px;
@@ -380,11 +380,11 @@ ul.txt, li.txt {
 	position: absolute;
 	top: 0;
 	left: 0;
-  	width: 152px;
+	width: 152px;
 	font-weight: 500;
 	font-size: 13px;
 	color: #ffffff;
-  	background: white;
+	background: white;
 	-webkit-border-top-left-radius: 3px;
 	-webkit-border-bottom-left-radius: 4px;
 	-moz-border-radius-topleft: 3px;
@@ -465,19 +465,19 @@ ul.txt, li.txt {
 #over {
 	position: relative;
 	top: 5px;
-	right: 31px;	
+	right: 31px;
 }
 
 #expert {
 	position: relative;
 	top: 5px;
-	right: 25px;	
+	right: 25px;
 }
 
 #familiar {
 	position: relative;
 	top: 5px;
-	left: -2px;	
+	left: -2px;
 }
 
 #proficient {
@@ -494,43 +494,43 @@ ul.txt, li.txt {
 	height: auto;
 	width: 99%;
 	overflow: hidden;
-//	border: 1px solid red;
+/*	border: 1px solid red; */
 }
 
 #experience {
-	display: inline-block; 
-	padding-top: 30px; 
+	display: inline-block;
+	padding-top: 30px;
 	padding-left: 30px;
 	width: 100%;
-//	border: 1px solid blue;
+/*	border: 1px solid blue; */
 }
 
 #education {
-	float: right;	
+	float: right;
 	width: 40%;
 	height: auto;
 	margin-top: 32px;
-//	border: 1px solid red;
+/*	border: 1px solid red; */
 }
 
 #jobs {
 	float: left;
 	width: 50%;
-//	border: 1px solid orange;
+/*	border: 1px solid orange; */
 }
 
 #courses {
 	float: right;
 	width: 40%;
 	height: auto;
-//	border: 1px solid green;
+/*	border: 1px solid green; */
 }
 
 #honors {
 	float: right;
 	width: 40%;
 	height: auto;
-//	border: 1px solid pink;
+/*	border: 1px solid pink; */
 }
 
 .dates {
@@ -540,9 +540,9 @@ ul.txt, li.txt {
 }
 
 .jobs {
-	margin-bottom: -20px; 
-	font-weight: 700; 
-	font-size: 120%; 
+	margin-bottom: -20px;
+	font-weight: 700;
+	font-size: 120%;
 	margin-left: 30px;
 	color: #313131;
 	font-family: MuseoSans;
@@ -571,12 +571,13 @@ ul.txt, li.txt {
 	margin-bottom: 5px;
 	text-align: justify;
 	width: 40em;
-//	display: inline-block;
+/*	display: inline-block; */
 }
 
 .resume:hover {
 	font-weight: 700;
 }
+
 /* ######################## */
 /* ------------------------------------------------------------------ */
 /* CONTACT */
@@ -591,7 +592,7 @@ ul.txt, li.txt {
 	position: absolute;
 	top: 100px;
 	right: 0;
-	height: 450px; 
+	height: 450px;
 	width: 66%;
 }
 
@@ -684,7 +685,7 @@ textarea {
 }
 
 #email {
-	margin-top: 15px;	
+	margin-top: 15px;
 }
 
 #message {
@@ -695,7 +696,7 @@ textarea {
 	position: absolute;
 	clear: both;
 	height: 50px;
-	width: 12%; 
+	width: 12%;
 	background-color:#313131;
 	color:#CACCCD;
 	font-weight: 500;
@@ -733,14 +734,14 @@ textarea {
 	position: relative;
 	right: 95px;
 	width: 30px;
-	height: 30px;	
+	height: 30px;
 }
 
 #phone {
 	clear: both;
 	float: right;
 	position: relative;
-	right: 96px;	
+	right: 96px;
 }
 
 #cell {
@@ -757,7 +758,7 @@ textarea {
 	float: right;
 	position: relative;
 	right: 0px;
-	top: 13px;	
+	top: 13px;
 }
 
 #envelope {
