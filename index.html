@@ -13,15 +13,14 @@
 		<!-- ###### MAIN CONTAINER ###### -->
 		<div id="container">
 
-			<!-- ###### HEADER ###### -->
 			<header>
 				<a href="index.html">
-					<img id="logo" src="img/primary/logo.png"/>
+					<img id="logo" src="img/primary/logo.png" alt="img/primary/logo.png"/>
 				</a>
 				<h4 class="txt" id="nav">
-					<a href="index.html"><span style="font-weight: 700">Portfolio</span></a>
-					<a href="blog.html">Blog </a>
-					<a href="#sectionD">Contact</a>
+					<a href="index.html"><span style="font-weight: 700"> Portfolio </span></a>
+					<a href="blog.html"> Blog </a>
+					<a href="#sectionD"> Contact </a>
 				</h4>
 			</header>
 
@@ -34,18 +33,21 @@
 						Noel Negusse</h1></a>
 				<p id="txt" class="aboutme"> about me and stuffff </p>
 				<a href="https://github.com/tunneln">
-					<img id="git-logo" src="img/logos/github-logo.png" onmouseover="g_hover(this, getElementById('github-img'), getElementById('linkedin-img'), getElementById('twitter-img'), getElementById('me') );" onmouseout="g_unhover(this, getElementById('github-img') );"/>
+					<img id="git-logo" src="img/logos/github-logo.png" alt="img/logos/github-logo.png"
+					onmouseover="g_hover(this, getElementById('github-img'), getElementById('linkedin-img'), getElementById('twitter-img'), getElementById('me') );" onmouseout="g_unhover(this, getElementById('github-img') );"/>
 				</a><a href="https://www.linkedin.com/in/noelnegusse">
-					<img id="linkedin-logo" src="img/logos/linkedin-logo.png" onmouseover="l_hover(this, getElementById('github-img'), getElementById('linkedin-img'), getElementById('twitter-img'), getElementById('me') );" onmouseout="l_unhover(this, getElementById('linkedin-img') );"/>
+					<img id="linkedin-logo" src="img/logos/linkedin-logo.png" alt="img/logos/linkedin-logo.png"
+					onmouseover="l_hover(this, getElementById('github-img'), getElementById('linkedin-img'), getElementById('twitter-img'), getElementById('me') );" onmouseout="l_unhover(this, getElementById('linkedin-img') );"/>
 				</a><a href="https://twitter.com/tunneln">
-					<img id="twitter-logo" src="img/logos/twitter-logo.png" onmouseover="t_hover(this, getElementById('github-img'), getElementById('linkedin-img'), getElementById('twitter-img'), getElementById('me') );" onmouseout="t_unhover(this, getElementById('twitter-img') );"/>
+					<img id="twitter-logo" src="img/logos/twitter-logo.png" alt="img/logos/twitter-logo.png"
+					onmouseover="t_hover(this, getElementById('github-img'), getElementById('linkedin-img'), getElementById('twitter-img'), getElementById('me') );" onmouseout="t_unhover(this, getElementById('twitter-img') );"/>
 				</a>
 
 				<div id="img-box">
 					<!-- <img id="me" src=""/> -->
-					<img id="linkedin-img" src="img/logos/linkedin-big.png"/>
-					<img id="github-img" src="img/logos/github-big.png"/>
-					<img id="twitter-img" src="img/logos/twitter-logo3.png"/>
+					<img id="linkedin-img" src="img/logos/linkedin-big.png" alt="img/logos/linkedin-big.png"/>
+					<img id="github-img" src="img/logos/github-big.png" alt="img/logos/github-big.png"/>
+					<img id="twitter-img" src="img/logos/twitter-logo3.png" alt="img/logos/twitter-logo3.png"/>
 				</div>
 			</section><!--section0-->
 
@@ -56,67 +58,93 @@
 				<ul>
 					<li>
 						<a href="https://github.com/tunneln/Ascii_Invaders#get-started">
-							<img id="space_invader" src="img/projects/space_invader.jpg" onmouseover="si_hover(this); ascii_hover(document.getElementById('ascii'), document.getElementById('vm'), document.getElementById('autopoke'), document.getElementById('device'));" onmouseout="si_unhover(this);"/>
+							<img id="space_invader" src="img/projects/space_invader.jpg" alt="img/projects/space_invader.jpg"
+							onmouseover="si_hover(this); ascii_hover(document.getElementById('ascii'), document.getElementById('vm'), document.getElementById('autopoke'), document.getElementById('device'));" onmouseout="si_unhover(this);"/>
 						</a>
 					</li>
 					<li>
 						<a href="https://github.com/rellermeyer/course_os">
+							<img id="gear" src="img/projects/gear.jpg" alt="img/projects/gear.jpg"
+							onmouseover="gear_hover(this); vm_hover(document.getElementById('ascii'), document.getElementById('vm'), document.getElementById('autopoke'), document.getElementById('device'));" onmouseout="gear_unhover(this);"/>
+						</a>
+					</li>
+					<li>
+						<a href="TODO">
+							<img id="poke" src="img/projects/poke.png" alt="img/projects/poke.png"
+							onmouseover="poke_hover(this); autopoke_hover(document.getElementById('ascii'), document.getElementById('vm'), document.getElementById('autopoke'), document.getElementById('device'));" onmouseout="poke_unhover(this);"/>
+						</a>
+					</li> <li>
+						<a href="TODO">
+							<img id="microchip" src="img/projects/microchip.png" alt="img/projects/microchip.png"
+							onmouseover="microchip_hover(this); device_hover(document.getElementById('ascii'), document.getElementById('vm'), document.getElementById('autopoke'), document.getElementById('device'));" onmouseout="microchip_unhover(this);"/>
+						</a>
+					</li> <li>
+						<a href="https://github.com/tunneln/Ascii_Invaders#get-started">
+							<img id="space_invader" src="img/projects/space_invader.jpg" onmouseover="si_hover(this); ascii_hover(document.getElementById('ascii'), document.getElementById('vm'), document.getElementById('autopoke'), document.getElementById('device'));" onmouseout="si_unhover(this);"/>
+						</a>
+					</li> <li>
+						<a href="https://github.com/rellermeyer/course_os">
 							<img id="gear" src="img/projects/gear.jpg" onmouseover="gear_hover(this); vm_hover(document.getElementById('ascii'), document.getElementById('vm'), document.getElementById('autopoke'), document.getElementById('device'));" onmouseout="gear_unhover(this);"/>
 						</a>
-					</li>
-					<li>
-						<a href="">
-							<img id="poke" src="img/projects/poke.png" onmouseover="poke_hover(this); autopoke_hover(document.getElementById('ascii'), document.getElementById('vm'), document.getElementById('autopoke'), document.getElementById('device'));" onmouseout="poke_unhover(this);"/>
+					</li> <li>
+						<a href="TODO">
+							<img id="poke" src="img/projects/poke.png" alt="img/projects/poke.png"
+							onmouseover="poke_hover(this); autopoke_hover(document.getElementById('ascii'), document.getElementById('vm'), document.getElementById('autopoke'), document.getElementById('device'));" onmouseout="poke_unhover(this);"/>
+						</a>
+					</li> <li>
+						<a href="TODO">
+							<img id="microchip" src="img/projects/microchip.png" alt="img/projects/microchip.png"
+							onmouseover="microchip_hover(this); device_hover(document.getElementById('ascii'), document.getElementById('vm'), document.getElementById('autopoke'), document.getElementById('device'));" onmouseout="microchip_unhover(this);"/>
 						</a>
 					</li>
-					<li>
-						<a href="">
-							<img id="microchip" src="img/projects/microchip.png" onmouseover="microchip_hover(this); device_hover(document.getElementById('ascii'), document.getElementById('vm'), document.getElementById('autopoke'), document.getElementById('device'));" onmouseout="microchip_unhover(this);"/>
-						</a>
-					</li>
-
+					<li> <!-- DESCRIPTIONS -->
 						<div id="ascii" class="description box">
 							<h3 class="title" > Ascii Invaders </h3>
 							<p class="txt"> A simple remake of Space Invaders using ncurses library and ASCII characters in <span style="font-weight: 900;">C++</span></p>
 							<a href="https://github.com/tunneln/Ascii_Invaders#get-started">
-								<img class="octocat" src="img/logos/Octocat.png"/>
+								<img class="octocat" src="img/logos/Octocat.png" alt="img/logos/Octocat.png"/>
 							</a>
-							<a href="">
-								<img class="ellipsis" src="img/mis/ellipsis.png" onmouseover="ellipsis_hover(this);" onmouseout="ellipsis_unhover(this);"/>
+							<a href="TODO">
+								<img class="ellipsis" src="img/mis/ellipsis.png" alt="img/mis/ellipsis.png"
+								onmouseover="ellipsis_hover(this);" onmouseout="ellipsis_unhover(this);"/>
 							</a>
 						</div>
 						<div id="vm" class="description box">
-							<h3 class="title" > Swapping & Paging Framework </h3>
+							<h3 class="title" > Swapping &amp; Paging Framework </h3>
 							<p class="txt"> A swap space framework and page fault handler designed and implemented in <span style="font-weight:900;">C</span> from the ground up for an ARM based kernel </p>
 							<a href="https://github.com/rellermeyer/course_os/wiki">
-								<img class="octocat" src="img/logos/Octocat.png"/>
+								<img class="octocat" src="img/logos/Octocat.png" alt="img/logos/Octocat.png"/>
 							</a>
-							<a href="">
-								<img class="ellipsis" src="img/mis/ellipsis.png" onmouseover="ellipsis_hover(this);" onmouseout="ellipsis_unhover(this);"/>
+							<a href="TODO">
+								<img class="ellipsis" src="img/mis/ellipsis.png" alt="img/mis/ellipsis.png"
+								onmouseover="ellipsis_hover(this);" onmouseout="ellipsis_unhover(this);"/>
 							</a>
 						</div>
 						<div id="autopoke" class="description box">
 							<h3 class="title" > Autopoke Add-on </h3>
 							<p class="txt"> A Firefox add-on to automate poking back Facebook friends using <span style="font-weight:900;">CSS</span> and <span style="font-weight:900;">Javascript</span></p>
-							<a href="">
-								<img class="octocat" src="img/logos/Octocat.png"/>
+							<a href="TODO">
+								<img class="octocat" src="img/logos/Octocat.png" alt="img/logos/Octocat.png"/>
 							</a>
-							<a href="">
-								<img class="ellipsis" src="img/mis/ellipsis.png" onmouseover="ellipsis_hover(this);" onmouseout="ellipsis_unhover(this);"/>
+							<a href="TODO">
+								<img class="ellipsis" src="img/mis/ellipsis.png" alt="img/mis/ellipsis.png"
+								onmouseover="ellipsis_hover(this);" onmouseout="ellipsis_unhover(this);"/>
 							</a>
 						</div>
-						<div id="device" class="description box">
-							<h3 class="title" > Body Monitor  </h3>
+						<div id="device" class="description box"> <h3 class="title" > Body Monitor  </h3>
 							<p class="txt"> A graphical testing mechanism designed in <span style="font-weight:900;">Java</span> for a wearable sensor capable of detecting the precursors of a fall using an on-board gyroscope and accelerometer </p>
-							<a href="">
-								<img class="octocat" src="img/logos/Octocat.png"/>
+							<a href="TODO">
+								<img class="octocat" src="img/logos/Octocat.png" alt="img/logos/Octocat.png"/>
 							</a>
-							<a href="">
-								<img class="ellipsis" src="img/mis/ellipsis.png" onmouseover="ellipsis_hover(this);" onmouseout="ellipsis_unhover(this);"/>
+							<a href="TODO">
+								<img class="ellipsis" src="img/mis/ellipsis.png" alt="img/mis/ellipsis.png"
+								onmouseover="ellipsis_hover(this);" onmouseout="ellipsis_unhover(this);"/>
 							</a>
 						</div>
 					</li>
+
 				</ul>
+
 			</section><!--sectionA-->
 
 
@@ -174,7 +202,7 @@
 							<div id="first"><span id="proficient">Comfortable</span></div>
 						</li>
 					</ul>
-				</section><!--skills-->
+				</div><!--skills-->
 			</section><!--sectionB-->
 
 
@@ -193,7 +221,7 @@
 						<h3 class="jobs">Server Administration Intern - KidsCare Therapy</h3>
 						<h5 class="txt dates">June 2014 - August 2014</h5>
 						<ul class="jobd">
-							<li class="jobd">  Monitored packet flow and deployed virtual machines to remote workstations within the office</li>
+							<li class="jobd"> Monitored packet flow and deployed virtual machines to remote workstations within the office</li>
 							<li class="jobd">  Gained experience with Hypervisors, Bash Scripting, and TCP/IP</li>
 						</ul>
 						<h3 class="jobs" style="margin-top: 40px;">CS/EE Research Intern - The University of Texas at Dallas</h3>
@@ -214,18 +242,17 @@
 					</div><!--jobs-->
 					<div id="education">
 						<h3 class="jobs" style="margin-bottom:-10px; font-weight: 700;">Education</h3>
-						<h5 class="jobd" style="margin-bottom:-20px; padding-left:30px; font-weight: 500;">The University of Texas at Austin</h5>
-						<h5 class="jobd" style="margin-bottom:-20px; padding-left:45px; font-weight: 500">Bachelor of Science in Computer Science</h5>
-						<h5 class="jobd" style="margin-bottom:-20px; padding-left:45px; font-weight: 500">Bachelor of Science in Mathematics</h5>
-						<h5 class="jobd" style="padding-left:45px; font-weight: 500;">Expected Graduation: May 2017</h5>
+						<h5 class="jobd" style="font-size: 15px; margin-bottom:-20px; padding-left:30px; font-weight: 500;">The University of Texas at Austin</h5>
+						<h5 class="jobd" style="font-size: 15px; margin-bottom:-20px; padding-left:45px; font-weight: 500">Bachelor of Science in Computer Science</h5>
+						<h5 class="jobd" style="font-size: 15px; padding-left:45px; font-weight: 500">Bachelor of Science in Mathematics</h5>
 					</div><!--education-->
 					<div id="courses">
-						<h3 class="jobs" style="font-weight: 700; margin-bottom:15px;">Relevant CS & Math Courses</h3>
+						<h3 class="jobs" style="font-weight: 700; margin-bottom:15px;">Relevant CS &amp; Math Courses</h3>
 						<ul class="jobdx">
 							<li class="jobdx"> CS354: Computer Graphics </li>
 							<li class="jobdx"> CS350C: Advance Computer Architecture</li>
 							<li class="jobdx"> M343L: Applied Number Theory</li>
-							<li class="jobdx"> M348: Scientific Computation in Numerical Analysis</li>
+							<li class="jobdx"> M348: Sci Comp in Numerical Analysis</li>
 							<li class="jobdx"> CS347: Data Management </li>
 							<li class="jobdx"> CS331: Algorithms And Complexity </li>
 							<li class="jobdx"> CS439: Operating Systems</li>
@@ -234,8 +261,14 @@
 					</div><!--courses-->
 					<div id="honors">
 						<h3 class="jobs" style="font-weight: 700; margin-bottom:-10px;">Competition Wins</h3>
-						<h5 class="jobdx" style="font-size: 95%; margin-bottom: -10px; padding-left: 30px;"> VEX ROBOTICS (2012) - 1st Place<br/>National SkillsUSA</h5>
-						<h5 class="jobdx" style="font-size: 95%; padding-left: 30px;"> CODE QUEST (2012) - 1st Place<br>Lockheed Martin, Fort Worth</h5>
+						<h5 class="jobdx" style="font-size: 15px; margin-bottom: -10px; padding-left: 30px;">
+							VEX ROBOTICS (2012) - 1st Place<br/>
+							<span style="padding-left: 10px;">National SkillsUSA</span>
+						</h5>
+						<h5 class="jobdx" style="font-size: 15px; padding-left: 30px;">
+							CODE QUEST (2012) - 1st Place<br/>
+							<span style="padding-left: 10px;"> Lockheed Martin, Fort Worth </span>
+						</h5>
 					</div>
 				</div><!--experience-->
 			</section><!--sectionC-->
@@ -273,20 +306,30 @@
 						708 Graham Pl.
 						<br/>
 						Austin, TX 78705
-						</p>
 						</span>
+						</p>
 					</div>
-					<img id="profile" src="img/mis/profile.png"/>
+					<img id="profile" src="img/mis/profile.png" alt="img/mis/profile.png"/>
+
 
 					<div id="phone">
 						<span class="txt" style="font-weight: 700;">(469) 432-7203</span>
 					</div>
-					<img id="cell" src="img/mis/phone.png"/>
+
+					<img id="cell" src="img/mis/phone.png" alt="img/mis/phone.png"/>
+
 					<div id="mail">
 						<span class="txt" style="font-weight: 700;">contact@noelnegusse.com</span>
 					</div>
-					<img id="envelope" src="img/mis/envelope.png"/>
-					<div id="extra" class="txt" style="clear: both; font-weight: 700;">You can also find me on <br/><a href="https://github.com/tunneln">Github</a>,&nbsp;<a href="https://www.linkedin.com/in/noelnegusse">LinkedIn</a> and <a href="https://twitter.com/tunneln">Twitter</a>
+
+					<img id="envelope" src="img/mis/envelope.png" alt="img/mis/envelope.png"/>
+
+					<div id="extra">
+						<span class="txt" style="font-weight: 700;">You can also find me on</span><br/>
+							<a href="https://github.com/tunneln">Github</a>,
+							<a href="https://www.linkedin.com/in/noelnegusse">LinkedIn</a> and
+							<a href="https://twitter.com/tunneln">Twitter</a>
+					</div>
 				</div><!--bio-->
 			</footer><!--sectionD-->
 		</div><!--container-->

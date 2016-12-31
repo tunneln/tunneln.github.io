@@ -1,23 +1,22 @@
 /* ##### SOCIAL MEDIA LOGOS ##### */
 
 // Github
-function g_hover(element, github, linkedin, twitter, me) 
+function g_hover(element, github, linkedin, twitter, me)
 {
 	element.setAttribute('src', 'img/logos/github-logo2.png');
 	github.style.display = 'block';
 	linkedin.style.display = 'none';
 	twitter.style.display = 'none';
 	me.style.display = 'none';
-
 }
 
-function g_unhover(element, github) 
+function g_unhover(element, github)
 {
 	element.setAttribute('src', 'img/logos/github-logo.png');
 	github.style.display = 'none';
 }
 //Twitter
-function t_hover(element, github, linkedin, twitter, me) 
+function t_hover(element, github, linkedin, twitter, me)
 {
 	element.setAttribute('src', 'img/logos/twitter-logo2.png');
 	github.style.display = 'none';
@@ -27,14 +26,14 @@ function t_hover(element, github, linkedin, twitter, me)
 
 }
 
-function t_unhover(element, twitter) 
+function t_unhover(element, twitter)
 {
 	element.setAttribute('src', 'img/logos/twitter-logo.png');
 	twitter.style.display = 'none';
 
 }
 //Linkedin
-function l_hover(element, github, linkedin, twitter, me) 
+function l_hover(element, github, linkedin, twitter, me)
 {
 	element.setAttribute('src', 'img/logos/linkedin-logo2.png');
 	github.style.display = 'none';
@@ -43,7 +42,7 @@ function l_hover(element, github, linkedin, twitter, me)
 	me.style.display = 'none';
 }
 
-function l_unhover(element, linkedin) 
+function l_unhover(element, linkedin)
 {
 	element.setAttribute('src', 'img/logos/linkedin-logo.png');
 	linkedin.style.display = 'none';
@@ -63,42 +62,42 @@ function me_unhover(me)
 /* ##### PROJECT ICONS ##### */
 
 //Space Invaders icon
-function si_hover(element) 
+function si_hover(element)
 {
 	element.setAttribute('src', 'img/projects/space_invader2.jpg');
 }
 
-function si_unhover(element) 
+function si_unhover(element)
 {
 	element.setAttribute('src', 'img/projects/space_invader.jpg');
 }
 //gear
-function gear_hover(element) 
+function gear_hover(element)
 {
 	element.setAttribute('src', 'img/projects/gear2.jpg');
 }
 
-function gear_unhover(element) 
+function gear_unhover(element)
 {
 	element.setAttribute('src', 'img/projects/gear.jpg');
 }
 //finger poke
-function poke_hover(element) 
+function poke_hover(element)
 {
 	element.setAttribute('src', 'img/projects/poke2.png');
 }
 
-function poke_unhover(element) 
+function poke_unhover(element)
 {
 	element.setAttribute('src', 'img/projects/poke.png');
 }
 //microchip
-function microchip_hover(element) 
+function microchip_hover(element)
 {
 	element.setAttribute('src', 'img/projects/microchip2.png');
 }
 
-function microchip_unhover(element) 
+function microchip_unhover(element)
 {
 	element.setAttribute('src', 'img/projects/microchip.png');
 }
