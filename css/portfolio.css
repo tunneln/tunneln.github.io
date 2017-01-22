@@ -228,19 +228,16 @@ h1.txt { /*general*/
 /* PROJECTS ############ */
 
 #sectionA {
-	margin-top: 80px;
-//	width: inherit;
-	border-style: solid;
-	border-color: red;
+	display: inline-block;
+	width: 99%;
+	margin-top: 58px;
 }
 
 #projects {
-	margin-top: 30px;
 	margin-left: 30px;
 }
 
 h3.txt { /*general*/
-	clear: both;
 	font-weight: 900;
 	font-size: 1.40em; /*I may want to increase title size*/
 }
@@ -266,7 +263,7 @@ h2.txt { /*general*/
 	width: 110px;
 }
 
-#poke {
+#foids {
 	float: left;
 	margin-left: 8%;
 	margin-bottom: 15px;
@@ -274,17 +271,80 @@ h2.txt { /*general*/
 	width: 110px;
 }
 
-#microchip {
+#processor {
 	float: left;
 	margin-left: 8%;
 	margin-bottom: 15px;
+	height: 110px;
+	width: 110px;
+}
+
+#database {
+	clear: left;
+	float: left;
+	margin-left: 110px;
+	margin-bottom: 15px;
+	margin-top: 20px;
+	height: 110px;
+	width: 110px;
+}
+
+#ledger {
+	float: left;
+	margin-left: 8%;
+	margin-bottom: 15px;
+	margin-top: 20px;
+	height: 110px;
+	width: 110px;
+}
+
+#raytracer {
+	float: left;
+	margin-left: 8%;
+	margin-bottom: 15px;
+	margin-top: 20px;
+	height: 110px;
+	width: 110px;
+}
+
+#gameboycolor {
+	float: left;
+	margin-left: 8%;
+	margin-bottom: 15px;
+	margin-top: 20px;
+	height: 110px;
+	width: 110px;
+}
+
+#bucket {
+	float: left;
+	margin-left: 8%;
+	margin-bottom: 15px;
+	margin-top: 20px;
+	height: 110px;
+	width: 110px;
+}
+
+#poke {
+	float: left;
+	margin-left: 8%;
+	margin-bottom: 15px;
+	margin-top: 40px;
+	height: 110px;
+	width: 110px;
+}
+
+#gyro {
+	float: left;
+	margin-left: 8%;
+	margin-bottom: 15px;
+	margin-top: 40px;
 	height: 110px;
 	width: 110px;
 }
 
 ul { /*general*/
 	list-style-type: none;
-
 }
 
 .title {
@@ -301,15 +361,27 @@ p.txt { /*general*/
 
 .description {
 	position: relative;
-	float: left;
+	float: right;
 	border: 1px solid #CACCCD;
 	background-color: #CACCCD;
 	border-radius: 15px;
-	margin-left: 2%;
-	margin-top: 50px;
 	height: 110px;
-	width: 500px;
+	width: 450px;
 	text-align: center;
+}
+
+@media screen and (min-width: 1285px) {
+	.description {
+		margin-right: 1%;
+		margin-top: -272px;
+    }
+}
+
+@media screen and (max-width: 1284px) {
+	.description {
+		margin-right: 15%;
+		margin-top: 0px;
+    }
 }
 
 #ascii {
@@ -320,11 +392,39 @@ p.txt { /*general*/
 	display: none;
 }
 
+#fish {
+	display: none;
+}
+
+#fpga {
+	display: none;
+}
+
+#carnotke {
+	display: none;
+}
+
+#bitcoin {
+	display: none;
+}
+
+#ray {
+	display: none;
+}
+
+#gameboy {
+	display: none;
+}
+
+#stack {
+	display: none;
+}
+
 #autopoke {
 	display: none;
 }
 
-#device {
+#sensor {
 	display: none;
 }
 
@@ -344,16 +444,12 @@ p.txt { /*general*/
 	width: 41px;
 }
 
-#sectionA2 {
-}
-
 /* ######################## */
 /* ------------------------------------------------------------------ */
 /* SKILLS ############ */
 
 #sectionB {
 	clear: both;
-	margin-top: 160px;
 }
 
 #skills {
