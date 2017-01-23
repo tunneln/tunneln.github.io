@@ -66,13 +66,13 @@ function me_unhover(me)
 // ascii invaders
 function si_hover(element)
 {
-	element.setAttribute('src', 'img/projects/space_invader2.jpg');
+	element.setAttribute('src', 'img/projects/space_invader2.png');
 }
 
 // kernel vm
 function gear_hover(element)
 {
-	element.setAttribute('src', 'img/projects/gear2.jpg');
+	element.setAttribute('src', 'img/projects/gear2.png');
 }
 
 // foids
@@ -114,7 +114,7 @@ function ray_hover(element)
 // smash the stack
 function bucket_hover(element)
 {
-	element.setAttribute('src', 'img/projects/bucket2.jpg');
+	element.setAttribute('src', 'img/projects/bucket2.png');
 }
 
 // device
@@ -137,7 +137,7 @@ ascii_img, vm_img, sensor_img, device_img, fish_img, fpga_img, ray_img, gb_img, 
 	fpga.style.display='none';
 	ray.style.display='none';
 	gb.style.display='none';
-	vm_img.setAttribute('src', 'img/projects/gear.jpg');
+	vm_img.setAttribute('src', 'img/projects/gear.png');
 	sensor_img.setAttribute('src', 'img/projects/gyro.png');
 	device_img.setAttribute('src', 'img/projects/ledger.png');
 	fish_img.setAttribute('src', 'img/projects/fish.png');
@@ -145,7 +145,7 @@ ascii_img, vm_img, sensor_img, device_img, fish_img, fpga_img, ray_img, gb_img, 
 	ray_img.setAttribute('src', 'img/projects/ray.png');
 	gb_img.setAttribute('src', 'img/projects/gb.png');
 	database_img.setAttribute('src', 'img/projects/db.png');
-	bucket_img.setAttribute('src', 'img/projects/bucket.jpg');
+	bucket_img.setAttribute('src', 'img/projects/bucket.png');
 }
 
 function vm_hover(ascii, vm, sensor, device, fish, database, bucket, fpga, ray, gb,
@@ -161,7 +161,7 @@ ascii_img, vm_img, sensor_img, device_img, fish_img, fpga_img, ray_img, gb_img, 
 	fpga.style.display='none';
 	ray.style.display='none';
 	gb.style.display='none';
-	ascii_img.setAttribute('src', 'img/projects/space_invader.jpg');
+	ascii_img.setAttribute('src', 'img/projects/space_invader.png');
 	sensor_img.setAttribute('src', 'img/projects/gyro.png');
 	device_img.setAttribute('src', 'img/projects/ledger.png');
 	fish_img.setAttribute('src', 'img/projects/fish.png');
@@ -169,7 +169,7 @@ ascii_img, vm_img, sensor_img, device_img, fish_img, fpga_img, ray_img, gb_img, 
 	ray_img.setAttribute('src', 'img/projects/ray.png');
 	gb_img.setAttribute('src', 'img/projects/gb.png');
 	database_img.setAttribute('src', 'img/projects/db.png');
-	bucket_img.setAttribute('src', 'img/projects/bucket.jpg');
+	bucket_img.setAttribute('src', 'img/projects/bucket.png');
 }
 
 function foids_hover(ascii, vm, sensor, device, fish, database, bucket, fpga, ray, gb,
@@ -185,15 +185,15 @@ ascii_img, vm_img, sensor_img, device_img, fish_img, fpga_img, ray_img, gb_img, 
 	fpga.style.display='none';
 	ray.style.display='none';
 	gb.style.display='none';
-	ascii_img.setAttribute('src', 'img/projects/space_invader.jpg');
-	vm_img.setAttribute('src', 'img/projects/gear.jpg');
+	ascii_img.setAttribute('src', 'img/projects/space_invader.png');
+	vm_img.setAttribute('src', 'img/projects/gear.png');
 	sensor_img.setAttribute('src', 'img/projects/gyro.png');
 	device_img.setAttribute('src', 'img/projects/ledger.png');
 	fpga_img.setAttribute('src', 'img/projects/fpga.png');
 	ray_img.setAttribute('src', 'img/projects/ray.png');
 	gb_img.setAttribute('src', 'img/projects/gb.png');
 	database_img.setAttribute('src', 'img/projects/db.png');
-	bucket_img.setAttribute('src', 'img/projects/bucket.jpg');
+	bucket_img.setAttribute('src', 'img/projects/bucket.png');
 }
 
 function proc_hover(ascii, vm, sensor, device, fish, database, bucket, fpga, ray, gb,
@@ -209,15 +209,15 @@ ascii_img, vm_img, sensor_img, device_img, fish_img, fpga_img, ray_img, gb_img, 
 	fpga.style.display='inline';
 	ray.style.display='none';
 	gb.style.display='none';
-	ascii_img.setAttribute('src', 'img/projects/space_invader.jpg');
-	vm_img.setAttribute('src', 'img/projects/gear.jpg');
+	ascii_img.setAttribute('src', 'img/projects/space_invader.png');
+	vm_img.setAttribute('src', 'img/projects/gear.png');
 	sensor_img.setAttribute('src', 'img/projects/gyro.png');
 	device_img.setAttribute('src', 'img/projects/ledger.png');
 	fish_img.setAttribute('src', 'img/projects/fish.png');
 	ray_img.setAttribute('src', 'img/projects/ray.png');
 	gb_img.setAttribute('src', 'img/projects/gb.png');
 	database_img.setAttribute('src', 'img/projects/db.png');
-	bucket_img.setAttribute('src', 'img/projects/bucket.jpg');
+	bucket_img.setAttribute('src', 'img/projects/bucket.png');
 }
 
 function db_hover(ascii, vm, sensor, device, fish, database, bucket, fpga, ray, gb,
@@ -233,15 +233,15 @@ ascii_img, vm_img, sensor_img, device_img, fish_img, fpga_img, ray_img, gb_img, 
 	fpga.style.display='none';
 	ray.style.display='none';
 	gb.style.display='none';
-	ascii_img.setAttribute('src', 'img/projects/space_invader.jpg');
-	vm_img.setAttribute('src', 'img/projects/gear.jpg');
+	ascii_img.setAttribute('src', 'img/projects/space_invader.png');
+	vm_img.setAttribute('src', 'img/projects/gear.png');
 	sensor_img.setAttribute('src', 'img/projects/gyro.png');
 	device_img.setAttribute('src', 'img/projects/ledger.png');
 	fish_img.setAttribute('src', 'img/projects/fish.png');
 	fpga_img.setAttribute('src', 'img/projects/fpga.png');
 	ray_img.setAttribute('src', 'img/projects/ray.png');
 	gb_img.setAttribute('src', 'img/projects/gb.png');
-	bucket_img.setAttribute('src', 'img/projects/bucket.jpg');
+	bucket_img.setAttribute('src', 'img/projects/bucket.png');
 }
 
 function bc_hover(ascii, vm, sensor, device, fish, database, bucket, fpga, ray, gb,
@@ -257,8 +257,8 @@ ascii_img, vm_img, sensor_img, device_img, fish_img, fpga_img, ray_img, gb_img, 
 	fpga.style.display='none';
 	ray.style.display='none';
 	gb.style.display='none';
-	ascii_img.setAttribute('src', 'img/projects/space_invader.jpg');
-	vm_img.setAttribute('src', 'img/projects/gear.jpg');
+	ascii_img.setAttribute('src', 'img/projects/space_invader.png');
+	vm_img.setAttribute('src', 'img/projects/gear.png');
 	sensor_img.setAttribute('src', 'img/projects/gyro.png');
 	device_img.setAttribute('src', 'img/projects/ledger2.png');
 	fish_img.setAttribute('src', 'img/projects/fish.png');
@@ -266,7 +266,7 @@ ascii_img, vm_img, sensor_img, device_img, fish_img, fpga_img, ray_img, gb_img, 
 	ray_img.setAttribute('src', 'img/projects/ray.png');
 	gb_img.setAttribute('src', 'img/projects/gb.png');
 	database_img.setAttribute('src', 'img/projects/db.png');
-	bucket_img.setAttribute('src', 'img/projects/bucket.jpg');
+	bucket_img.setAttribute('src', 'img/projects/bucket.png');
 }
 
 function raytracer_hover(ascii, vm, sensor, device, fish, database, bucket, fpga, ray, gb,
@@ -282,15 +282,15 @@ ascii_img, vm_img, sensor_img, device_img, fish_img, fpga_img, ray_img, gb_img, 
 	fpga.style.display='none';
 	ray.style.display='inline';
 	gb.style.display='none';
-	ascii_img.setAttribute('src', 'img/projects/space_invader.jpg');
-	vm_img.setAttribute('src', 'img/projects/gear.jpg');
+	ascii_img.setAttribute('src', 'img/projects/space_invader.png');
+	vm_img.setAttribute('src', 'img/projects/gear.png');
 	sensor_img.setAttribute('src', 'img/projects/gyro.png');
 	device_img.setAttribute('src', 'img/projects/ledger.png');
 	fish_img.setAttribute('src', 'img/projects/fish.png');
 	fpga_img.setAttribute('src', 'img/projects/fpga.png');
 	gb_img.setAttribute('src', 'img/projects/gb.png');
 	database_img.setAttribute('src', 'img/projects/db.png');
-	bucket_img.setAttribute('src', 'img/projects/bucket.jpg');
+	bucket_img.setAttribute('src', 'img/projects/bucket.png');
 }
 
 function gameboy_hover(ascii, vm, sensor, device, fish, database, bucket, fpga, ray, gb,
@@ -306,15 +306,15 @@ ascii_img, vm_img, sensor_img, device_img, fish_img, fpga_img, ray_img, gb_img, 
 	bucket.style.display='none';
 	fpga.style.display='none';
 	ray.style.display='none';
-	ascii_img.setAttribute('src', 'img/projects/space_invader.jpg');
-	vm_img.setAttribute('src', 'img/projects/gear.jpg');
+	ascii_img.setAttribute('src', 'img/projects/space_invader.png');
+	vm_img.setAttribute('src', 'img/projects/gear.png');
 	sensor_img.setAttribute('src', 'img/projects/gyro.png');
 	device_img.setAttribute('src', 'img/projects/ledger.png');
 	fish_img.setAttribute('src', 'img/projects/fish.png');
 	fpga_img.setAttribute('src', 'img/projects/fpga.png');
 	ray_img.setAttribute('src', 'img/projects/ray.png');
 	database_img.setAttribute('src', 'img/projects/db.png');
-	bucket_img.setAttribute('src', 'img/projects/bucket.jpg');
+	bucket_img.setAttribute('src', 'img/projects/bucket.png');
 }
 
 function stack_hover(ascii, vm, sensor, device, fish, database, bucket, fpga, ray, gb,
@@ -330,8 +330,8 @@ ascii_img, vm_img, sensor_img, device_img, fish_img, fpga_img, ray_img, gb_img, 
 	fpga.style.display='none';
 	ray.style.display='none';
 	gb.style.display='none';
-	ascii_img.setAttribute('src', 'img/projects/space_invader.jpg');
-	vm_img.setAttribute('src', 'img/projects/gear.jpg');
+	ascii_img.setAttribute('src', 'img/projects/space_invader.png');
+	vm_img.setAttribute('src', 'img/projects/gear.png');
 	sensor_img.setAttribute('src', 'img/projects/gyro.png');
 	device_img.setAttribute('src', 'img/projects/ledger.png');
 	fish_img.setAttribute('src', 'img/projects/fish.png');
@@ -354,15 +354,15 @@ ascii_img, vm_img, sensor_img, device_img, fish_img, fpga_img, ray_img, gb_img, 
 	fpga.style.display='none';
 	ray.style.display='none';
 	gb.style.display='none';
-	ascii_img.setAttribute('src', 'img/projects/space_invader.jpg');
-	vm_img.setAttribute('src', 'img/projects/gear.jpg');
+	ascii_img.setAttribute('src', 'img/projects/space_invader.png');
+	vm_img.setAttribute('src', 'img/projects/gear.png');
 	device_img.setAttribute('src', 'img/projects/ledger.png');
 	fish_img.setAttribute('src', 'img/projects/fish.png');
 	fpga_img.setAttribute('src', 'img/projects/fpga.png');
 	ray_img.setAttribute('src', 'img/projects/ray.png');
 	gb_img.setAttribute('src', 'img/projects/gb.png');
 	database_img.setAttribute('src', 'img/projects/db.png');
-	bucket_img.setAttribute('src', 'img/projects/bucket.jpg');
+	bucket_img.setAttribute('src', 'img/projects/bucket.png');
 }
 
 function ellipsis_hover(element)
