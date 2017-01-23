@@ -793,15 +793,15 @@ textarea {
 	z-index: 1000;
 }
 
-#fullname {
+#Name {
 
 }
 
-#email {
+#Email {
 	margin-top: 15px;
 }
 
-#message {
+#Message {
 	margin-top: 25px;
 }
 
