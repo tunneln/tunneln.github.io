@@ -374,14 +374,14 @@ p.txt { /*general*/
 	.description {
 		margin-right: 1%;
 		margin-top: -272px;
-    }
+	}
 }
 
 @media screen and (max-width: 1284px) {
 	.description {
 		margin-right: 15%;
 		margin-top: 0px;
-    }
+	}
 }
 
 #ascii {
