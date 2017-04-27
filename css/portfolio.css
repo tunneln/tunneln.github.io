@@ -759,6 +759,12 @@ input {
 	padding-bottom: 130px;
 }
 
+#cap {
+	clear: left;
+	position: relative;
+	top: 25px;
+}
+
 .fooo {
 	position: relative;
 	color: #313131;
@@ -805,6 +811,10 @@ textarea {
 	margin-top: 25px;
 }
 
+#Captcha {
+	margin-top: 25px;
+}
+
 #submit {
 	position: absolute;
 	clear: both;
@@ -815,7 +825,7 @@ textarea {
 	font-weight: 500;
 	font-size: 16px;
 	opacity: 1;
-	bottom: 107px;
+	bottom: 55px;
 	left: 0;
 }
 
